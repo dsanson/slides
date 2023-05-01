@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="David Sanson">
+  <title>Example Slideshow</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="/dist/reset.css">
+  <link rel="stylesheet" href="/dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="/dist/theme/screencast.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides" data-video="small top-right" >
+
+<section id="title-slide">
+  <h1 class="title">Example Slideshow</h1>
+  <p class="author">David Sanson</p>
+  <p class="institute">Illinois State University</p>
+</section>
+
+<section id="screencast-slideshows" class="slide level1">
+<h1>Screencast Slideshows</h1>
+<p>A setup for recording screencast slideshows with video, using
+reveal.js. Trying to mimic some of the simple effects (overlays,
+transitions) of OBS without the overhead.</p>
+</section>
+<section id="basic-ideas" class="slide level1">
+<h1>Basic Ideas</h1>
+<ul>
+<li>use built-in screencast recording to record browser window with
+webcam displayed.</li>
+<li>use custom slide layouts to integrate webcam into slide content in
+different ways.</li>
+<li>use reveal.js animations for simple “overlay” effects.</li>
+</ul>
+</section>
+<section id="reveal-embed-video.js" class="slide level1">
+<h1>reveal-embed-video.js</h1>
+<ul>
+<li>using <a href="https://github.com/ThomasWeinert/reveal-embed-video"
+class="uri">https://github.com/ThomasWeinert/reveal-embed-video</a></li>
+<li>.js updated to register properly as a plugin for Revealjs 4.0</li>
+<li>.css modified to add additional video placement (move to
+overlay.scss?)</li>
+</ul>
+</section>
+<section id="screencast.scss" class="slide level1">
+<h1>screencast.scss</h1>
+<ul>
+<li>layouts designed to be used with webcam video
+<ul>
+<li>overlay layouts: for displaying <em>over</em> webcam video</li>
+<li>TODO: grid/flex layouts that integrate webcam into slide layout</li>
+</ul></li>
+<li>TODO: include carnap exercises in slides</li>
+<li>TODO: styles/animations that mimic OBS overlays</li>
+</ul>
+</section>
+<section id="demo" class="slide level1" data-video="full">
+<h1 data-video="full">Demo</h1>
+<ul>
+<li>Press ‘S’ to view speaker notes, which include explanations.</li>
+<li>Press ‘C’ to enable the camera.</li>
+</ul>
+</section>
+<section id="fullscreen-camera" class="slide level1" data-video="full">
+<h1 data-video="full">Fullscreen camera</h1>
+<p>Camera displays under content.</p>
+<aside class="notes">
+<p>Fullscreen webcam under slide layout. Meant for use either with empty
+slides, or with overlay layouts.</p>
+</aside>
+</section>
+<section id="lefthalf-camera" class="slide level1" data-video="left">
+<h1 data-video="left">Lefthalf camera</h1>
+<p>Camera displays under content.</p>
+<aside class="notes">
+<p>For use with an overlay layout with a solid background on the right
+for focused content.</p>
+</aside>
+</section>
+<section id="overlay-style" class="slide level1 overlay"
+data-video="full">
+<h1 class="overlay" data-video="full">Overlay style</h1>
+<ul>
+<li>title bottom left</li>
+<li>content top right</li>
+</ul>
+<aside class="notes">
+<p>The simple ‘overlay’ slide layout is meant to work well when drawn
+over the top of background video. The header is shifted to bottom left,
+and the content to the top right. Works best if speaker is positioned in
+left-hand side of video frame.</p>
+</aside>
+</section>
+<section id="key-ideas" class="slide level1 overlay keys"
+data-video="full">
+<h1 class="overlay keys" data-video="full">“Key Ideas”</h1>
+<ul>
+<li class="fragment">layouts</li>
+<li class="fragment">css</li>
+<li class="fragment">reveal.js</li>
+</ul>
+<aside class="notes">
+<p>WIP. The idea is to present ul’s as incrementally revealed “key
+ideas” while talking. Useful for introducing new ideas for the first
+time. Idea is to add more animation to make each keyword pop out as
+revealed.</p>
+</aside>
+</section>
+<section id="no-video" class="slide level1" data-video="false">
+<h1 data-video="false">No Video</h1>
+<p>Set the <code>video</code> attribute to false in order to disable
+video on a given slide.</p>
+</section>
+<section id="other-ideas" class="slide level1" data-video="false">
+<h1 data-video="false">Other ideas</h1>
+<ul>
+<li>animate/emphasize defined terms: maybe enlarge and wobble?</li>
+<li>add a chalkboard plugin to draw on slides</li>
+</ul>
+</section>
+<section id="thats-all-for-now" class="slide level1">
+<h1>That’s all for now</h1>
+<p>BYE!</p>
+</section>
+    </div>
+  </div>
+
+  <script src="/dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="/plugin/notes/notes.js"></script>
+  <script src="/plugin/search/search.js"></script>
+  <script src="/plugin/zoom/zoom.js"></script>
+  <script src="/plugin/reveal-embed-video/plugin.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        'embed-video': {
+            enabled: true, // optional, default false
+            persistent: false, // optional, default false
+            path: '/plugin/reveal-embed-video', // optional, default null
+        },
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom,
+          EmbedVideo
+        ]
+      });
+    </script>
+    </body>
+</html>

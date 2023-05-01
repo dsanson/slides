@@ -1,0 +1,122 @@
+/**
+ * Overlay theme for reveal.js, designed to be used with video overlay/underlay.
+ *
+ * By David Sanson
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+@font-face{
+    font-family: "Fira Logic";
+    src: url('https://cdn.jsdelivr.net/gh/gleachkr/FiraLogic/dist/FiraLogic-Regular.woff') format('woff');
+}
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #000;
+
+$mainColor: #fff;
+$headingColor: #fff;
+
+$mainFont: 'Montserrat', Helvetica, sans-serif;
+$headingFont: 'Montserrat', Helvetica, sans-serif;
+$codeFont: 'Fira Logic', monospace;
+
+$mainFontSize: 42px;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 700;
+$linkColor: #42affa;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: rgba( $linkColor, 0.75 );
+
+$heading1Size: 1.6em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+// Change text colors against light slide backgrounds
+@include light-bg-text-color(#222);
+
+// enable scrolling for vertical overflow
+.reveal .slides > section, 
+.reveal .slides > section > section {
+  overflow-y: auto !important;
+  height: 100%;
+}
+
+// slide templates
+
+// title
+.reveal .slides section#title-slide {
+  display: grid !important;
+  grid-template: auto auto 2em / auto auto;
+  h1.title {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size-adjust: ch-width 1.3;
+    align-self: end;
+  }
+  .author {
+    grid-column-start: 1;
+    text-align:left;
+  }
+}
+
+// two-column
+.reveal .slides section.two-up {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+// unordered lists as vertical flexbox without bullets
+
+.reveal .slides section.keys ul {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+
+  &> li {
+    text-align: center;
+    align-self:center;
+    list-style: none;
+  }
+}
+
+// overlay mode: heading bottom left; content to the right
+.reveal .slides > section.overlay, 
+.reveal .slides > section > section.overlay {
+
+  h1,h2,h3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left:0;
+  }
+  
+  & > * {
+    margin-left:40vw;
+  }
+}
+
+// some basic styling
+
+.vocab {
+  font-family: 'Bangers', serif;
+  font-size: 1.2em;
+  color: antiquewhite;
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------

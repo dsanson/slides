@@ -1,0 +1,8 @@
+to: revealjs
+template: '${.}/screencast.revealjs'
+standalone: true
+variables:
+  revealjs-url: ''
+  theme: screencast
+  transition: fade
+  video-layout: 'small top-right'
