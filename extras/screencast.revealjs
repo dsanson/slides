@@ -18,6 +18,9 @@ $endif$
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="$revealjs-url$/dist/reset.css">
   <link rel="stylesheet" href="$revealjs-url$/dist/reveal.css">
+  <link rel="stylesheet" href="/slides/$revealjs-url$/dist/reset.css">
+  <link rel="stylesheet" href="/slides/$revealjs-url$/dist/reveal.css">
+
   <style>
     .reveal .sourceCode {  /* see #7635 */
       overflow: visible;
@@ -26,8 +29,10 @@ $endif$
   </style>
 $if(theme)$
   <link rel="stylesheet" href="$revealjs-url$/dist/theme/$theme$.css" id="theme">
+  <link rel="stylesheet" href="/slides/$revealjs-url$/dist/theme/$theme$.css" id="theme">
 $else$
   <link rel="stylesheet" href="$revealjs-url$/dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="/slides/$revealjs-url$/dist/theme/black.css" id="theme">
 $endif$
 $for(css)$
   <link rel="stylesheet" href="$css$"/>
@@ -79,14 +84,21 @@ $body$
   </div>
 
   <script src="$revealjs-url$/dist/reveal.js"></script>
+  <script src="/slides/$revealjs-url$/dist/reveal.js"></script>
 
   <!-- reveal.js plugins -->
   <script src="$revealjs-url$/plugin/notes/notes.js"></script>
   <script src="$revealjs-url$/plugin/search/search.js"></script>
   <script src="$revealjs-url$/plugin/zoom/zoom.js"></script>
   <script src="$revealjs-url$/plugin/reveal-embed-video/plugin.js"></script>
+  <script src="/slides/$revealjs-url$/plugin/notes/notes.js"></script>
+  <script src="/slides/$revealjs-url$/plugin/search/search.js"></script>
+  <script src="/slides/$revealjs-url$/plugin/zoom/zoom.js"></script>
+  <script src="/slides/$revealjs-url$/plugin/reveal-embed-video/plugin.js"></script>
+
 $if(mathjax)$
   <script src="$revealjs-url$/plugin/math/math.js"></script>
+  <script src="/slides/$revealjs-url$/plugin/math/math.js"></script>
 $endif$
 
   <script>
