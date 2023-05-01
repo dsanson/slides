@@ -320,7 +320,7 @@ const initEmbedVideo = function(Reveal) {
     /* and a style link for github pages */
     style = document.createElement('link');
     style.rel = 'stylesheet';
-    style.href = '/slides/reveal-embed-video/reveal-embed-video.css';
+    style.href = '/slides/plugin/reveal-embed-video/reveal-embed-video.css';
     document.querySelector('head').appendChild(style);
 
     Reveal.addEventListener(
