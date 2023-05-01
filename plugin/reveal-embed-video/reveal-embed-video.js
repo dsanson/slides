@@ -316,6 +316,12 @@ const initEmbedVideo = function(Reveal) {
     style.rel = 'stylesheet';
     style.href = options.path + '/reveal-embed-video.css';
     document.querySelector('head').appendChild(style);
+   
+    /* and a style link for github pages */
+    style = document.createElement('link');
+    style.rel = 'stylesheet';
+    style.href = options.path + '/slides/reveal-embed-video.css';
+    document.querySelector('head').appendChild(style);
 
     Reveal.addEventListener(
       'ready',
