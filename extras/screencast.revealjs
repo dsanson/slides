@@ -90,11 +90,11 @@ $body$
   <script src="$revealjs-url$/plugin/notes/notes.js"></script>
   <script src="$revealjs-url$/plugin/search/search.js"></script>
   <script src="$revealjs-url$/plugin/zoom/zoom.js"></script>
-  <script src="$revealjs-url$/plugin/reveal-embed-video/plugin.js"></script>
+  <script src="$revealjs-url$/plugin/reveal-embed-video/reveal-embed-video.js"></script>
   <script src="/slides/$revealjs-url$/plugin/notes/notes.js"></script>
   <script src="/slides/$revealjs-url$/plugin/search/search.js"></script>
   <script src="/slides/$revealjs-url$/plugin/zoom/zoom.js"></script>
-  <script src="/slides/$revealjs-url$/plugin/reveal-embed-video/plugin.js"></script>
+  <script src="/slides/$revealjs-url$/plugin/reveal-embed-video/reveal-embed-video.js"></script>
 
 $if(mathjax)$
   <script src="$revealjs-url$/plugin/math/math.js"></script>
@@ -319,7 +319,6 @@ $endif$
         'embed-video': {
             enabled: true, // optional, default false
             persistent: false, // optional, default false
-            path: '$revealjs-url$/plugin/reveal-embed-video', // optional, default null
         },
 
         // reveal.js plugins

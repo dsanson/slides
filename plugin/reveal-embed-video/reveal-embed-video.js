@@ -1,20 +1,23 @@
-/**
- * reveal-embed-video.js is a plugin to include an live video stream (from a webcam) in
- * reveal.js slides.
- *
- * @namespace EmbedVideo
- * @author Thomas Weinert
- * @license MIT
- * @see {@link http://thomas.weinert.info/reveal-embed-video/|GitHub} for documentation, bug reports and more.
- */
+/*****************************************************************
+** Author: David Sanson
+**
+** A plugin for embedded live video
+**
+** Version: 0.0.1
+** 
+** License: MIT license (see LICENSE.md)
+**
+******************************************************************/
 
-'use strict';
+window.EmbedVideo = window.EmbedVideo || {
+    id: 'EmbedVideo',
+    init: function(deck) {
+        console.log('loaded')
+        initEmbedVideo(deck);
+    }
+};
 
-/**
- * Plugin initialization
- * @function
- */
-(function () {
+const initEmbedVideo = function(Reveal) {
 
   /**
    * @param {HTMLVideoElement} video
@@ -421,4 +424,4 @@
   options.path = options.path || getScriptPath() || 'plugin/reveal-embed-video';
 
   new Plugin(options);
-})();
+}
