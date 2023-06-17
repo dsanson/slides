@@ -19,10 +19,10 @@
 }
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: #000;
+$backgroundColor: #222;
 
-$mainColor: #fff;
-$headingColor: #fff;
+$mainColor: #ddd;
+$headingColor: #ddd;
 
 $mainFont: 'Montserrat', Helvetica, sans-serif;
 $headingFont: 'Montserrat', Helvetica, sans-serif;
@@ -31,7 +31,7 @@ $codeFont: 'Fira Logic', monospace;
 $mainFontSize: 42px;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingTextTransform: none;
 $headingFontWeight: 700;
 $linkColor: #42affa;
 $linkColorHover: lighten( $linkColor, 15% );
@@ -57,17 +57,19 @@ $heading4Size: 1.0em;
 // title slide
 .reveal .slides section#title-slide {
   display: grid !important;
-  grid-template: auto auto 2em / auto auto;
+  grid-template: auto auto 2em / 2em auto auto 2em;
   h1.title {
-    grid-row-start: 2;
-    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-start: 2;
     grid-column-end: 3;
-    font-size-adjust: ch-width 1.3;
     align-self: end;
+    text-align:center;
   }
-  .author {
-    grid-column-start: 1;
-    text-align:left;
+  .authors {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    text-align:center;
   }
 }
 
@@ -157,13 +159,25 @@ video.live-video.bradybunch {
   display: flex;
   flex-direction: column;
   align-content: stretch;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 
   &> li {
-    text-align: center;
+    text-align: left;
     align-self:center;
     list-style: none;
+  }
+}
+
+.reveal .slides {
+  text-align: left;
+
+  blockquote {
+    text-align: left;
+    background: rgba(255, 255, 255, 0.20);
+    padding: 0em 1em;
+    border-radius: 1em;
+    font-style: normal;
   }
 }
 

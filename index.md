@@ -59,6 +59,16 @@ For use with an overlay layout with a solid background on the right for focused 
 The simple 'overlay' slide layout is meant to work well when drawn over the top of background video. The header is shifted to bottom left, and the content to the top right. Works best if speaker is positioned in left-hand side of video frame.
 :::
 
+# Brady Bunch {.bradybunch video="bradybunch"}
+
+items arranged
+
+around a central video
+
+like the brady bunch
+
+opening credits
+
 # "Key Ideas" {.overlay .keys video="full"}
 
 > -   layouts

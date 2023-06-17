@@ -6,3 +6,5 @@ variables:
   theme: screencast
   transition: fade
   video-layout: 'small top-right'
+  width: 1920
+  height: 1080

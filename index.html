@@ -118,6 +118,14 @@ and the content to the top right. Works best if speaker is positioned in
 left-hand side of video frame.</p>
 </aside>
 </section>
+<section id="brady-bunch" class="slide level1 bradybunch"
+data-video="bradybunch">
+<h1 class="bradybunch" data-video="bradybunch">Brady Bunch</h1>
+<p>items arranged</p>
+<p>around a central video</p>
+<p>like the brady bunch</p>
+<p>opening credits</p>
+</section>
 <section id="key-ideas" class="slide level1 overlay keys"
 data-video="full">
 <h1 class="overlay keys" data-video="full">“Key Ideas”</h1>
@@ -311,8 +319,15 @@ video on a given slide.</p>
         // viewDistance in order to save resources.
         mobileViewDistance: 2,
 
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1920,
+
+        height: 1080,
+
         'embed-video': {
-            enabled: true, // optional, default false
+            enabled: false, // optional, default false
             persistent: false, // optional, default false
         },
 

@@ -5,11 +5,9 @@ video.live-video {
   top:  5%;
   width: 25%;
   height: auto;
-  transition:
-    width ease-in-out 1s,
-    height ease-in-out 1s,
-    border 1s ease 1s,
-    box-shadow 1s ease 1s;
+  transition-property: width, height, border, box-shadow, margin, top, left, right, bottom, max-height, max-width;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
   /* border: 3px solid #888 !important; */
   box-shadow: 3px 3px 3px #000;
 }
@@ -24,11 +22,6 @@ video.live-video.big {
   max-height: 90%;
   /* border: 3px solid transparent !important; */
   box-shadow: 3px 3px 3px transparent !important;
-  transition:
-    width ease-in-out 2s,
-    height ease-in-out 2s,
-    border 0s,
-    box-shadow 0s;
 }
 
 video.live-video.small {
@@ -64,32 +57,4 @@ video.live-video.bottom-left {
   top: auto;
 }
 
-video.live-video.full {
-  top: 0;
-  left: 0;
-  width: 100%;
-  max-width: unset;
-  max-height: unset;
-  z-index: 0;
-  transition:
-    width ease-in-out 2s,
-    height ease-in-out 2s,
-    margin ease-in-out 2s,
-    clip-path ease-in-out 2s,
-}
 
-video.live-video.left {
-  top: 0;
-  left: 0;
-  width: 100%;
-  max-width: unset;
-  max-height: unset;
-  z-index: 0;
-  clip-path: polygon(25% 0, 75% 0,75% 100%,25% 100%);
-  margin-left: -25%;
-  transition:
-    width ease-in-out 2s,
-    height ease-in-out 2s,
-    margin ease-in-out 2s,
-    clip-path ease-in-out 2s,
-}

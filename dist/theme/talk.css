@@ -20,18 +20,20 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal .slides section#title-slide {
   display: grid !important;
-  grid-template: auto auto 2em/auto auto;
+  grid-template: auto auto 2em/2em auto auto 2em;
 }
 .reveal .slides section#title-slide h1.title {
-  grid-row-start: 2;
-  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-start: 2;
   grid-column-end: 3;
-  font-size-adjust: ch-width 1.3;
   align-self: end;
+  text-align: center;
 }
-.reveal .slides section#title-slide .author {
-  grid-column-start: 1;
-  text-align: left;
+.reveal .slides section#title-slide .authors {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  text-align: center;
 }
 
 .reveal .slides section.two-up {
@@ -94,13 +96,23 @@ video.live-video.bradybunch {
   display: flex;
   flex-direction: column;
   align-content: stretch;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .reveal .slides section.keys ul > li {
-  text-align: center;
+  text-align: left;
   align-self: center;
   list-style: none;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+.reveal .slides blockquote {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0em 1em;
+  border-radius: 1em;
 }
 
 .vocab {
@@ -113,17 +125,17 @@ video.live-video.bradybunch {
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #000;
+  --r-background-color: #222;
   --r-main-font: Montserrat, Helvetica, sans-serif;
   --r-main-font-size: 42px;
-  --r-main-color: #fff;
+  --r-main-color: #ddd;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: Montserrat, Helvetica, sans-serif;
-  --r-heading-color: #fff;
+  --r-heading-color: #ddd;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
-  --r-heading-text-transform: uppercase;
+  --r-heading-text-transform: none;
   --r-heading-text-shadow: none;
   --r-heading-font-weight: 700;
   --r-heading1-text-shadow: none;
@@ -140,7 +152,7 @@ video.live-video.bradybunch {
 }
 
 .reveal-viewport {
-  background: #000;
+  background: #222;
   background-color: var(--r-background-color);
 }
 

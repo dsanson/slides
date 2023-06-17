@@ -57,9 +57,13 @@ $if(title)$
 $if(subtitle)$
   <p class="subtitle">$subtitle$</p>
 $endif$
+$if(author)$
+  <div class="authors">
 $for(author)$
-  <p class="author">$author$</p>
+  <div class="author">$author$</div>
 $endfor$
+  </div>
+$endif$
 $for(institute)$
   <p class="institute">$institute$</p>
 $endfor$
@@ -317,7 +321,7 @@ $if(mathjax)$
 $endif$
 
         'embed-video': {
-            enabled: true, // optional, default false
+            enabled: false, // optional, default false
             persistent: false, // optional, default false
         },
 
