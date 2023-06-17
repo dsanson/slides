@@ -3,15 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <meta name="author" content="David Sanson">
-  <title>Example Slideshow</title>
+  <meta name="author" content="Ahmed Alwishah Pitzer College ahmed_alwishah@pitzer.edu">
+  <meta name="author" content="David Sanson Illinois State University desanso@ilstu.edu">
+  <title>Ibn ʿAdī and Dashtakī on the Liar Paradox</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="/dist/reset.css">
-  <link rel="stylesheet" href="/dist/reveal.css">
-  <link rel="stylesheet" href="/slides//dist/reset.css">
-  <link rel="stylesheet" href="/slides//dist/reveal.css">
+  <link rel="stylesheet" href="..//dist/reset.css">
+  <link rel="stylesheet" href="..//dist/reveal.css">
+  <link rel="stylesheet" href="/slides/..//dist/reset.css">
+  <link rel="stylesheet" href="/slides/..//dist/reveal.css">
 
   <style>
     .reveal .sourceCode {  /* see #7635 */
@@ -22,156 +23,436 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="/dist/theme/screencast.css" id="theme">
-  <link rel="stylesheet" href="/slides//dist/theme/screencast.css" id="theme">
+  <link rel="stylesheet" href="..//dist/theme/talk.css" id="theme">
+  <link rel="stylesheet" href="/slides/..//dist/theme/talk.css" id="theme">
 </head>
 <body>
   <div class="reveal">
     <div class="slides" data-video="small top-right" >
 
 <section id="title-slide">
-  <h1 class="title">Example Slideshow</h1>
-  <p class="author">David Sanson</p>
-  <p class="institute">Illinois State University</p>
+  <h1 class="title">Ibn ʿAdī and Dashtakī on the Liar Paradox</h1>
+  <div class="authors">
+  <div class="author"><p>Ahmed Alwishah<br />
+Pitzer College<br />
+<a href="mailto:ahmed_alwishah@pitzer.edu"
+class="email">ahmed_alwishah@pitzer.edu</a></p></div>
+  <div class="author"><p>David Sanson<br />
+Illinois State University<br />
+<a href="mailto:desanso@ilstu.edu"
+class="email">desanso@ilstu.edu</a></p></div>
+  </div>
 </section>
 
-<section id="screencast-slideshows" class="slide level1">
-<h1>Screencast Slideshows</h1>
-<p>A setup for recording screencast slideshows with video, using
-reveal.js. Trying to mimic some of the simple effects (overlays,
-transitions) of OBS without the overhead.</p>
+<section>
+<section id="introduction" class="title-slide slide level1">
+<h1>Introduction</h1>
+
 </section>
-<section id="basic-ideas" class="slide level1">
-<h1>Basic Ideas</h1>
+<section id="our-book-project" class="slide level2">
+<h2>Our Book Project</h2>
 <ul>
-<li>use built-in screencast recording to record browser window with
-webcam displayed.</li>
-<li>use custom slide layouts to integrate webcam into slide content in
-different ways.</li>
-<li>use reveal.js animations for simple “overlay” effects.</li>
+<li>Translation of Dawānī’s <em>The Final Word</em></li>
+<li>Overly ambitious attempt to provide a complete history of the Liar
+in the Islamic world, up thru Dawānī.</li>
+<li>Today talking about the earliest, and one of the latest</li>
 </ul>
+</section></section>
+<section>
+<section id="ibn-ʿadī-on-the-liar" class="title-slide slide level1">
+<h1>Ibn ʿAdī on the Liar</h1>
+
 </section>
-<section id="reveal-embed-video.js" class="slide level1">
-<h1>reveal-embed-video.js</h1>
+<section id="yaḥyá-ibn-adi" class="slide level2">
+<h2>Yaḥyá Ibn Adi</h2>
 <ul>
-<li>using <a href="https://github.com/ThomasWeinert/reveal-embed-video"
-class="uri">https://github.com/ThomasWeinert/reveal-embed-video</a></li>
-<li>.js updated to register properly as a plugin for Revealjs 4.0</li>
-<li>.css modified to add additional video placement (move to
-overlay.scss?)</li>
+<li>Syriac Christian, b. 893; d. 974</li>
+<li>Student of Abū Bishr Mattā; student or colleague of al-Fārābī</li>
+<li>Translator of and commentator on Aristotle’s logical works</li>
+<li>Known in his own time for his work in logic</li>
 </ul>
-</section>
-<section id="screencast.scss" class="slide level1">
-<h1>screencast.scss</h1>
+<aside class="notes">
 <ul>
-<li>layouts designed to be used with webcam video
+<li>Syriac Christian, b. 893 in Tikrit; d. 974 in Baghdad</li>
+<li>Student of Abū Bishr Mattā; student or colleague of al-Fārābī</li>
+<li>Translated (from Syriac) and commented on many of Aristotle’s
+logical works, and late antique commentaries:
 <ul>
-<li>overlay layouts: for displaying <em>over</em> webcam video</li>
-<li>TODO: grid/flex layouts that integrate webcam into slide layout</li>
+<li><em>Categories</em>, <em>Topics</em>, <em>Sophistical
+Refutations</em>, Alexander of Aphrodisias’s commentary on the
+<em>Categories</em>.</li>
 </ul></li>
-<li>TODO: include carnap exercises in slides</li>
-<li>TODO: styles/animations that mimic OBS overlays</li>
+<li>Known in his own time for his work in logic</li>
 </ul>
-</section>
-<section id="demo" class="slide level1" data-video="full">
-<h1 data-video="full">Demo</h1>
-<ul>
-<li>Press ‘S’ to view speaker notes, which include explanations.</li>
-<li>Press ‘C’ to enable the camera.</li>
-</ul>
-</section>
-<section id="fullscreen-camera" class="slide level1" data-video="full">
-<h1 data-video="full">Fullscreen camera</h1>
-<p>Camera displays under content.</p>
-<aside class="notes">
-<p>Fullscreen webcam under slide layout. Meant for use either with empty
-slides, or with overlay layouts.</p>
 </aside>
 </section>
-<section id="lefthalf-camera" class="slide level1" data-video="left">
-<h1 data-video="left">Lefthalf camera</h1>
-<p>Camera displays under content.</p>
-<aside class="notes">
-<p>For use with an overlay layout with a solid background on the right
-for focused content.</p>
-</aside>
+<section id="abū-mattā-vs.-al-sirāfī" class="slide level2">
+<h2>932: Abū Mattā vs. al-Sirāfī</h2>
+<p>Abū Mattā:</p>
+<blockquote>
+<p>The logician does not need grammar, whereas the grammarian has a
+strong need for logic, because logic investigates meaning
+(<em>maʿnā</em>) whereas grammar investigates utterance
+(<em>lafẓ</em>).<span class="citation"
+data-cites="al-tawhidi2019 adamson2015b margoliouth1905 abed1991">[@al-tawhidi2019,
+125; @adamson2015b, 78; @margoliouth1905, 117; @abed1991,
+xvi]</span></p>
+</blockquote>
 </section>
-<section id="overlay-style" class="slide level1 overlay"
-data-video="full">
-<h1 class="overlay" data-video="full">Overlay style</h1>
+<section id="explaining-the-virtue-of-the-art-of-logic"
+class="slide level2">
+<h2><em>Explaining the Virtue of the Art of Logic</em></h2>
 <ul>
-<li>title bottom left</li>
-<li>content top right</li>
+<li>One of the manuscripts found by Robert Wisnovsky in the Tehran codex
+Marwī 19.</li>
+<li>Logic studies meaning not utterance, so it can make distinctions
+that the linguistic arts cannot.
+<ul>
+<li>Here are 16384(!) senses of ‘the standing other than the sitting’
+(<em>al-qāʾim ghayr al-qāʿid</em>)</li>
+</ul></li>
+<li>Four “common problems raised by the sophists” that we can solve
+using the power of logic:
+<ul>
+<li>He who says, ‘All my sayings are false,’ if he has not spoken
+before…</li>
+<li>Everyone who says he is a donkey is truthful.</li>
+<li>Every man has many species.</li>
+<li>Body is either animal or not animal, so either rock is animal or
+animal is not animal.</li>
+</ul></li>
+<li>(Solutions left as an exercise for the reader.)</li>
 </ul>
 <aside class="notes">
-<p>The simple ‘overlay’ slide layout is meant to work well when drawn
-over the top of background video. The header is shifted to bottom left,
-and the content to the top right. Works best if speaker is positioned in
-left-hand side of video frame.</p>
+<p>Full title: <em>Explaining the Virtue of the Art of Logic by
+Describing how it Benefits People [by endowing them] with Powers [to
+dissolve problems] that it is Impossible for the other Arts of Language
+to Solve</em>.</p>
+<p><span class="math display">16384 = 2<sup>14</sup></span></p>
+<blockquote>
+<div class="line-block">Everyone who says he is a donkey says he is an
+animal.<br />
+Everyone who says he is an animal is truthful.<br />
+So, everyone who says he is donkey is truthful.</div>
+</blockquote>
+<ul>
+<li>haven’t located in Greek sources; present from the very beginning in
+all Latin sources</li>
+</ul>
+<blockquote>
+<div class="line-block">Every man is an animal.<br />
+Animal has many species.<br />
+So every man has many species.</div>
+</blockquote>
+<ul>
+<li>variation of a puzzle that is well-attested in Greek sources</li>
+</ul>
+<blockquote>
+<p>Body is either animal or not animal. Necessarily, if something is
+true of all, it must be affirmed of each. If body is animal, this
+entails that rock is animal, since rock is body and, by assumption, body
+is animal. And if body is not animal, this entails that animal is not
+animal, since animal is body.</p>
+</blockquote>
+<ul>
+<li>A puzzle about Aristotle’s <em>dictum de omni et nullo</em>
+(<em>Categories</em> 1b 10-15) that the later tradition associates with
+Isagoge.</li>
+</ul>
+<p>What was Ibn ʿAdī’s source for the Liar?</p>
+<ul>
+<li>Alexander’s commentary on <em>Topics</em> II.7 <span
+class="citation"
+data-cites="alexander2020 mignucci1999a kunne2014">[@alexander2020,
+p. 113, 188:4-189:10; @mignucci1999a; @kunne2014]</span>?</li>
+<li>Ibn ʿAdī tells us that he consulted this commentary when writing his
+own commentary on the <em>Topics</em><br />
+</li>
+<li>But he also tells us that Alexanders comments on <em>Topics</em> II
+were missing from his copy.<span class="citation"
+data-cites="endress1977">[@endress1977, p. 25]</span></li>
+</ul>
+<p>Our guess: puzzles like the Liar were part of the standard logic
+curriculum, presented as exercises to students by teachers.</p>
 </aside>
 </section>
-<section id="brady-bunch" class="slide level1 bradybunch"
-data-video="bradybunch">
-<h1 class="bradybunch" data-video="bradybunch">Brady Bunch</h1>
-<p>items arranged</p>
-<p>around a central video</p>
-<p>like the brady bunch</p>
-<p>opening credits</p>
-</section>
-<section id="key-ideas" class="slide level1 overlay keys"
-data-video="full">
-<h1 class="overlay keys" data-video="full">“Key Ideas”</h1>
-<ul>
-<li class="fragment">layouts</li>
-<li class="fragment">css</li>
-<li class="fragment">reveal.js</li>
-</ul>
+<section id="the-liar" class="slide level2">
+<h2>The Liar</h2>
+<p>Here is how he presents the problem:</p>
+<blockquote>
+<p>Tell us about he who says, ‘All my sayings are false,’ if he has not
+spoken before, other than by declaring the falsity of them as a whole.
+Do you judge his saying to be false or true? For if you insist that it
+is true, then it must be false, and this necessarily entails that his
+saying is true and false together, and it is one saying.</p>
+</blockquote>
+<p>TODO: add citation</p>
 <aside class="notes">
-<p>WIP. The idea is to present ul’s as incrementally revealed “key
-ideas” while talking. Useful for introducing new ideas for the first
-time. Idea is to add more animation to make each keyword pop out as
-revealed.</p>
+<p>This is the standard form the Liar takes throughout the tradition. It
+is a Contingent Liar, in Kripke’s sense, and obviously so. Generally
+speaking, proposed solutions will be sensitive to that.</p>
 </aside>
 </section>
-<section id="no-video" class="slide level1" data-video="false">
-<h1 data-video="false">No Video</h1>
-<p>Set the <code>video</code> attribute to false in order to disable
-video on a given slide.</p>
-</section>
-<section id="other-ideas" class="slide level1" data-video="false">
-<h1 data-video="false">Other ideas</h1>
+<section id="the-virtue-of-logic" class="slide level2">
+<h2><em>The Virtue of Logic</em></h2>
 <ul>
-<li>animate/emphasize defined terms: maybe enlarge and wobble?</li>
-<li>add a chalkboard plugin to draw on slides</li>
+<li>Thankfully, a friend or patron read <em>Explaining</em>, and asked
+for solutions!</li>
+<li>Thankfully, with the discovery of <em>Explaining</em>, we have a
+full picture of how this text fits into his broader project</li>
 </ul>
 </section>
-<section id="thats-all-for-now" class="slide level1">
-<h1>That’s all for now</h1>
-<p>BYE!</p>
+<section id="ibn-ʿadīs-solution" class="slide level2">
+<h2>Ibn ʿAdī’s Solution</h2>
+<p>The Liar is false:</p>
+<blockquote>
+<p>This saying (<em>al-qawl</em>) is false, and it is not possibly
+true.</p>
+</blockquote>
+<p>It is false because one of his sayings is not false:</p>
+<blockquote>
+<p>For he is declaring about the totality of [his] sayings
+(<em>aqqāwilī</em>), and one of them is the saying that all of them are
+false, and it is not the case that the totality of other sayings that he
+declared (<em>khabar</em>) to be false are false. Hence the saying that
+they are false is true.</p>
+</blockquote>
+<p>But that’s weird, because the Liar is supposed to be his only
+saying.</p>
 </section>
+<section class="slide level2">
+
+<blockquote>
+<p>For in entering into its totality, and declaring about the totality
+of which it is one, <span class="fragment highlight-current-red">the
+saying is a declarative about itself</span>, too, and <span
+class="fragment highlight-current-red">it becomes a declarative
+(<em>khabar</em>) and a declared-about (<em>mukhbar ʿanhu</em>)</span>.
+And <span class="fragment highlight-current-red">each declarative that
+is posited as a declared-about, exits in this condition from being a
+declarative</span>. <span class="fragment highlight-current-red">So,
+this saying, insofar as it is a declaring about itself, is not a
+declarative</span>, and <span
+class="fragment highlight-current-red">each saying that is not a
+declarative is neither true nor false</span>, and <span
+class="fragment highlight-current-red">if this saying is posited as [a
+declared-about] it is neither true nor false</span>.</p>
+</blockquote>
+<aside class="notes">
+<p>A “declared-about” (<em>mukhbar ʿanhu</em>) is the subject of a
+declarative. If I say, ‘Zayd is sitting’, Zayd, the man, is the
+declared-about. If I say, ‘All my students are from Illinois’, each
+individual student is a declared-abouts.</p>
+</aside>
+</section>
+<section class="slide level2">
+
+<ol type="1">
+<li>L is both a declarative and a declared-about.</li>
+<li>When a declarative is posited as a declared-about, it “exits in this
+condition from being” a declarative.</li>
+<li>As declared-about, L is not a declarative .</li>
+<li>Sayings that are not declaratives are neither true nor false.</li>
+<li>So, as a declared-about, L is neither true nor false.</li>
+<li>As a declarative, L declares that all its declared-abouts are
+false.</li>
+<li>So, as a declarative, L is false.</li>
+</ol>
+</section>
+<section class="slide level2">
+
+<blockquote>
+<p>And because <span class="fragment highlight-current-red">it is
+declaring about itself that it is false, in the case in which it is
+neither true nor false</span>, it is false and must not be true. For in
+order for it to be true it must declare about itself that it is false in
+the case in which it is false, and it must not be the subject of a
+declaration of its own falsehood, for in that case, it is not a
+declarative, and therefore it cannot be true when it declares about
+itself that it is false. And this is the solution to this problem.</p>
+</blockquote>
+</section>
+<section id="exiting" class="slide level2">
+<h2>Exiting</h2>
+<ol start="2" type="1">
+<li>When a declarative is posited as a declared-about, it “exits in this
+condition from being” a declarative.</li>
+</ol>
+<blockquote>
+<p>As for [the claim that] if the declarative is posited as a
+declared-about, it exits in this condition from being a declarative,
+this is something that can be explained by induction. For if you say
+‘“Zayd is standing” is a declarative’, and ‘“ʿAmran is running” is a
+declarative’, and ‘“Bread is beneficial” […],’ you are not declaring, in
+all these sayings, that Zayd is standing, or that ʿAmran is running, or
+that Bread is beneficial, and this applies to all other
+declaratives.</p>
+</blockquote>
+</section>
+<section id="all-declaratives-must-be-declared" class="slide level2">
+<h2>All declaratives must be declared</h2>
+<p>The background idea here seems to be that if a saying is not
+<em>declared</em>, it is not a declarative.</p>
+<dl>
+<dt>Z</dt>
+<dd>
+Zayd is standing.
+</dd>
+<dt>ZD</dt>
+<dd>
+‘Zayd is standing’ is a declarative.
+</dd>
+</dl>
+<p>When I declare ZD, I do not declare Z. Since Z is not declared, it is
+not a declarative. So ZD is false.</p>
+<aside class="notes">
+<p>Note that it is in many ways similar to the Frege-Geach point: when I
+declare a conditional, I do not declare the antecedent or consequent.
+Yet, for purposes of analysis, we want the antecedent and consequent to
+retain the semantic features granted on the Aristotelian picture only to
+declaratives. The same is true about quotation, especially when we want
+to use quotation to discuss the semantic features of the quoted
+sayings.</p>
+<p>It is not as though Aristotelians weren’t aware of these problems.
+Avicenna, for example, is quite explicit about the point that the parts
+of a hypothetical judgment are not themselves judged.</p>
+</aside>
+</section>
+<section id="a-davidsonian-thought" class="slide level2">
+<h2>A Davidsonian Thought</h2>
+<p>Here is a lovely quote from <span class="citation"
+data-cites="recanati2001">@recanati2001 [639]</span>, about
+quotation:</p>
+<blockquote>
+<p>In quotation, as several authors have emphasized (Christensen 1967,
+Searle 1969, §4.1, Read forthcoming), the quoted material is displayed
+or presented. That means that a token is produced and the attention of
+the audience is drawn to that token. To be sure, whenever one says
+something, one produces (tokens of) words, with the intention that the
+audience perceive them. Yet one does not normally intend the addressee
+to pay conscious attention to the words one utters. In linguistic
+communication, the words are automatically processed, and audience
+attention is drawn to what one says rather than to the means by which
+one says it. When words are mentioned, however, the medium itself is
+brought to the forefront of attention: the words are displayed,
+exhibited. This is a form of ostension, as Davidson and others have
+pointed out, but it differs from ordinary ostension in one respect: the
+ostended token does not exist independently of the act of ostending it.
+When I point to a bird, the bird exists independent of my pointing, but
+when I mention a word, the ostended token is produced—it comes into
+being—through the very act of ostensive display.</p>
+</blockquote>
+</section>
+<section id="applying-that-distinction" class="slide level2">
+<h2>Applying that Distinction</h2>
+<p>The kind of quotation involved in ZD involves two distinct acts:</p>
+<ul>
+<li>The act of producing ‘Zayd is standing’ to be <em>presented or
+displayed</em>.</li>
+<li>The act of declaring, about that, that it is a declarative.</li>
+</ul>
+<p>As Ibn ʿAdī says, the first act is not an act of declaring. So the
+<em>displayed</em> saying—the saying as declared-about—is not a
+declarative. If it is the act of declaring that making a saying truth
+apt, the <em>displayed</em> saying, ‘Zayd is standing’, is not truth
+apt.</p>
+</section>
+<section id="not-all-declared-abouts" class="slide level2">
+<h2>Not all declared-abouts…</h2>
+<p>What if someone <em>else</em> declares Z, and then I declare,</p>
+<dl>
+<dt>ZD*</dt>
+<dd>
+What they said is a declarative.
+</dd>
+</dl>
+<p>Does <em>their</em> declarative, when posited as a declared-about,
+also exit from being a declarative?</p>
+<p>To be sure, <em>I</em> don’t declare it when I declare ZD*. But
+<em>they</em> declared it. Why should it lose its declarativity when I
+go to declare something about it?</p>
+</section>
+<section id="ineffability-and-self-defeat" class="slide level2">
+<h2>Ineffability and Self-defeat</h2>
+<p>Ibn ʿAdī makes all sorts of declarative claims about declaratives.
+But his own analysis appears to say that, the moment you try to talk
+<em>about</em> a declarative, it exits from being a declarative.</p>
+</section>
+<section id="back-to-the-liar" class="slide level2">
+<h2>Back to the Liar</h2>
+<p>The funky thing about L, on this analysis, is that it would appear to
+be produced in a <em>single act</em>, <em>both</em> to be displayed,
+<em>and</em> as an act of declaring something about itself.</p>
+<p>Surely in that case, at least, a declarative need not lose its status
+as declarative in the condition of being a declared-about?</p>
+<p>Later in the tradition, Fakr al-Din al-Razi (1149-1210) will argue
+that these acts <em>must</em> be distinct:</p>
+<blockquote>
+<p>the declarative about something is later in order than the
+declared-about (<em>mukhbar ’anhu</em>). So if we made the declarative
+the same as the declared-about, then that entails that the thing is
+later in order than itself, and that is impossible.</p>
+</blockquote>
+<p>It is unclear from context whether ‘later in order’ here means later
+in <em>time</em>, or later in some logical or conceptual order. Perhaps
+Ibn ʿAdī has something like this idea in mind.</p>
+</section></section>
+<section>
+<section id="dashtakī" class="title-slide slide level1">
+<h1>Dashtakī</h1>
+
+</section>
+<section id="brief-bio" class="slide level2">
+<h2>Brief Bio</h2>
+<ul>
+<li>Active in Shiraz, d. 1498</li>
+<li>Extended philosophical engagement with Dawani on the Liar and other
+topics</li>
+<li>Executed after leading a tax revolt.</li>
+</ul>
+</section>
+<section id="the-liar-1" class="slide level2">
+<h2>The Liar</h2>
+</section>
+<section id="true-false-and-empty-subjects" class="slide level2">
+<h2>True, False, and Empty Subjects</h2>
+</section>
+<section id="existential-import" class="slide level2">
+<h2>Existential Import</h2>
+<p>Mea culpa</p>
+</section>
+<section id="solution" class="slide level2">
+<h2>Solution</h2>
+</section>
+<section id="objections" class="slide level2">
+<h2>Objections</h2>
+</section></section>
     </div>
   </div>
 
-  <script src="/dist/reveal.js"></script>
-  <script src="/slides//dist/reveal.js"></script>
+  <script src="..//dist/reveal.js"></script>
+  <script src="/slides/..//dist/reveal.js"></script>
 
   <!-- reveal.js plugins -->
-  <script src="/plugin/notes/notes.js"></script>
-  <script src="/plugin/search/search.js"></script>
-  <script src="/plugin/zoom/zoom.js"></script>
-  <script src="/plugin/reveal-embed-video/reveal-embed-video.js"></script>
-  <script src="/slides//plugin/notes/notes.js"></script>
-  <script src="/slides//plugin/search/search.js"></script>
-  <script src="/slides//plugin/zoom/zoom.js"></script>
-  <script src="/slides//plugin/reveal-embed-video/reveal-embed-video.js"></script>
+  <script src="..//plugin/notes/notes.js"></script>
+  <script src="..//plugin/search/search.js"></script>
+  <script src="..//plugin/zoom/zoom.js"></script>
+  <script src="..//plugin/reveal-embed-video/reveal-embed-video.js"></script>
+  <script src="/slides/..//plugin/notes/notes.js"></script>
+  <script src="/slides/..//plugin/search/search.js"></script>
+  <script src="/slides/..//plugin/zoom/zoom.js"></script>
+  <script src="/slides/..//plugin/reveal-embed-video/reveal-embed-video.js"></script>
 
 
   <script>
