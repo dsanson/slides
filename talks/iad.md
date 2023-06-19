@@ -54,7 +54,7 @@ Shams al-Dīn Muhammad al-Samarqandī,1322
 Ibn al-Muṭahhar al-Ḥillī,1325
 Saʿd al-Dīn al-Taftāzānī,1390
 al-Sayyid al-Sharīf al-Jurjānī,1413
-[Ṣadr al-Dīn al-Dashtakī]{.fragment .highlight-green fragment-index},1498
+[Ṣadr al-Dīn al-Dashtakī]{.fragment .highlight-green fragment-index=1},1498
 Jalāl al-Dīn al-Dawānī,1502
 ```
 :::
@@ -103,26 +103,25 @@ The Liar is false because it contradicts itself.,"al-Razi; al-Abharī; al-Kātib
 
 ## Context
 
--    In 932, in a famous public debate on the relative merits of (Greek) logic and (Arabic) grammar.
 -    Abū Bishr Mattā argued that logic is better than grammar because
 
-     > [logic investigates meaning (*maʿnā*) whereas grammar
-     > investigates utterance (*lafẓ*).]{.fragment .highlight-current-green}
+     > logic investigates meaning (*maʿnā*) whereas grammar
+     > investigates utterance (*lafẓ*).
 
 -   In two closely related works, Ibn ʿAdī defends this view, in part by
     showing how we can use logic to solve the Liar:
 
     -   *Explaining the Virtue of the Art of Logic*
-    -   A solutions manual to *Explaining, *The Virtues of Logic*
+    -   A solutions manual to *Explaining, *The Virtues of Logic* [@ibnadi1988, 201--205]
 
-## *Explaining the Virtue of the Art of Logic*
+## *Explaining the Virtue of the Art of Logic* {auto-animate=true}
 
 -   Full title: *Explaining the Virtue of the Art of Logic by Describing how
     it Benefits People \[by endowing them\] with Powers \[to dissolve
     problems\] that it is Impossible for the other Arts of Language to Solve*.
 
 -   Was long lost. Part of the Tehran codex Marwī 19 discovered by Robert Wisnovsky
-    (@wisnovsky2012).
+    (@wisnovsky2012). Robert and Ahmed are working on producing an edited version.
 
 -   Part I:
 
@@ -130,12 +129,18 @@ The Liar is false because it contradicts itself.,"al-Razi; al-Abharī; al-Kātib
     > sitting (*al-qāʾim ghayr al-qāʿid*),' in 16384 ways \[=$2^14$\], as we
     > will explain, whereas the other practical arts are unable to do so.
 
+## *Explaining the Virtue of the Art of Logic* {auto-animate=true}
+
+:::nonincremental
 -   Part II:
 
     > Another benefit of logic is to dissolve some common problems that were
     > brought by the sophists.
+:::
 
--   One of those four problems is the Liar. [Solutions are left as an exercise to the reader]{.fragment}
+-   One of those four problems is the Liar.
+
+-   Solutions are left as an exercise to the reader.
 
 -   Luckily, a friend reached out, and asked for a solution manual. In *Virtues*, we get his solution to the Liar.
  
@@ -167,8 +172,8 @@ A puzzle about Aristotle's *dictum de omni et nullo* (*Categories* 1b
 
 ## The Liar
 
-> Tell us about he who says, '[All my sayings (*qawl*) are false]{.fragment
-> .highlight-green },' if [he has not spoken
+> Tell us about [he who says, 'All my sayings (*qawl*) are false]{.fragment
+> .highlight-green },' [if he has not spoken
 > before]{.fragment .highlight-green}, other than by
 > declaring the falsity of them as a whole.
 > Do you judge his saying to be false or true? For if you necessitate that it
@@ -176,16 +181,19 @@ A puzzle about Aristotle's *dictum de omni et nullo* (*Categories* 1b
 > is true and false together, and it is one saying.
 
 -   Pretty much the standard form the Liar takes throughout the tradition.
--   Popular later variants are 'All my sayings at this moment are false" and
-    "All my sayings in this house are false'.
--   We also find Liar cycles and the Truthteller.
+-   Popular later variants are:
+    -   He who says, 'All my sayings at this moment are false,' and says nothing else in that moment.
+    -   He who says, 'All my sayings in this house are false,' and says nothing else in that house.
+ 
+-   There are also Liar cycles.
+-   Pretty much all the examples are what Kripke would call *Contingent* Liars, and the solutions are meant to be sensitive to that.
 
 ## Ibn ʿAdī's Solution {auto-animate=true}
 
 > For in entering into its totality, and declaring about the totality of which
 > it is one, the saying is a declarative about itself too, and [it becomes a declarative (*khabar*) and
 > a declared-about (*mukhbar ʿanhu*)]{.fragment  .highlight-current-green}. And
-> [each declarative that is posited as a declared-about, exits in this
+> [each declarative that is posited as a declared-about, exits (*yakhruj*) in this
 > condition from being a declarative]{.fragment  .highlight-current-green}.
 > [So, this saying, insofar as it is a declaring about itself, is not a
 > declarative]{.fragment  .highlight-current-green}, and [each saying that is not a declarative is neither true nor false]{.fragment  .highlight-current-green}, and [if this saying is posited as \[a
@@ -234,10 +242,10 @@ TODO: Ahmed, I would like the arabic for 'exiting from being'
 > As for [the claim that] if the declarative is posited as a
 > declared-about, it exits in this condition from being a declarative,
 > this is something that can be explained by induction. For [if you say '"Zayd
-> is standing" is a declarative']{.fragment .highlight-current-green fragment-index=1}, and '"ʿAmran is running" is a declarative',
+> is standing" is a declarative']{.fragment .highlight-current-green fragment-index=1}, and '"ʿAmru is running" is a declarative',
 > and '"Bread is beneficial" \[...\],' [you are not declaring]{.fragment
 > .highlight-current-green fragment-index="1"}, in all
-> these sayings, that Zayd is standing, or that ʿAmran is running, or that
+> these sayings, that Zayd is standing, or that ʿAmru is running, or that
 > Bread is beneficial, and this applies to all other declaratives.
 
 1.  [When I declare, '"Zayd is standing" is a declarative', I do not declare 'Zayd is standing'.]{.fragment .highlight-current-green fragment-index=1}
@@ -308,6 +316,12 @@ TODO: Ahmed, I would like the arabic for 'exiting from being'
    
 # Al-Dashtakī on the Liar
 
+## Texts
+
+-   We rely primarily on Dawānī's report of Dashtakī's view in *The Final
+    Word*. For edited text, see @qaramaleki2007 [124--128]. 
+-   See also Dashtakī's *Risala*, also edited in @qaramaleki2007.
+   
 ## Al-Dashtakī's proposed solution
 
 > [Falsity is considered in this specific saying twice]{.fragment
