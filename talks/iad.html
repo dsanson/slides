@@ -809,18 +809,18 @@ data-auto-animate="true">
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">T</td>
-<td style="text-align: center;">Correct</td>
+<td style="text-align: center;">C</td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">F</td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;">Correct</td>
+<td style="text-align: center;">C</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">✗</td>
-<td style="text-align: center;">not Correct</td>
-<td style="text-align: center;">not Correct</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
 </tr>
 </tbody>
 </table>
@@ -889,11 +889,14 @@ Z is true
 <dt>ZTT</dt>
 <dd>
 <span class="fragment highlight-current-green"
-data-fragment-index="1">ZT is true</span>: requires both Z and ZT.
+data-fragment-index="1">ZT is true</span>: <span
+class="fragment highlight-current-green"
+data-fragment-index="10">requires</span> both Z and ZT.
 </dd>
 <dt>ZTF</dt>
 <dd>
-ZT is false: requires both Z and ZT.
+ZT is false: <span class="fragment highlight-current-green"
+data-fragment-index="10">requires</span> both Z and ZT.
 </dd>
 </dl>
 </div>
@@ -910,11 +913,14 @@ Z is false
 <dt>ZFF</dt>
 <dd>
 <span class="fragment highlight-current-green"
-data-fragment-index="2">ZF is false</span>: requires both Z and ZF.
+data-fragment-index="2">ZF is false</span>: <span
+class="fragment highlight-current-green"
+data-fragment-index="10">requires</span> both Z and ZF.
 </dd>
 <dt>ZFT</dt>
 <dd>
-ZF is true: requires both Z and ZF
+ZF is true: <span class="fragment highlight-current-green"
+data-fragment-index="10">requires</span> both Z and ZF
 </dd>
 </dl>
 </div>
@@ -922,8 +928,9 @@ ZF is true: requires both Z and ZF
 <div class="line-block"><br />
 </div>
 <p><span class="fragment highlight-current-green"
-style="text-align:center;display:inherit">‘requires’ here is short for
-‘requires to be correct’.</span></p>
+style="text-align:center;display:inherit"
+data-fragment-index="10">‘requires’ here is short for ‘requires to be
+correct’.</span></p>
 </section>
 <section class="slide level2">
 
@@ -1001,17 +1008,18 @@ C</span></td>
 </tbody>
 </table>
 </section>
-<section class="slide level2">
-
-<p>Finally, he talks about the possibility that both Z and ZT go
-missing:</p>
+<section id="section" class="slide level2" data-auto-animate="true">
+<h2 data-auto-animate="true"> </h2>
 <blockquote>
-<p>Likewise, if one does not declare and [does not] judge that my
-declarative is true, [then] it is not correct to attribute truth or
-falsity to it, because one’s saying, “My declarative is true,” is
-missing, that is, due to the lack of the declarative which is judged to
-be true, which is needed to actualize the attribution of the two truths
-or the two falsities.</p>
+<p>Likewise, if <span class="fragment highlight-current-green"
+data-fragment-index="1">one does not declare</span> and <span
+class="fragment highlight-current-green" data-fragment-index="2">[does
+not] judge that my declarative is true</span>, [then] <span
+class="fragment highlight-current-green" data-fragment-index="3">it is
+not correct to attribute truth or falsity to it</span>, because one’s
+saying, “My declarative is true,” is missing, that is, due to the lack
+of the declarative which is judged to be true, which is needed to
+actualize the attribution of the two truths or the two falsities.</p>
 </blockquote>
 <div data-id="1">
 <table>
@@ -1037,18 +1045,31 @@ or the two falsities.</p>
 <td style="text-align: center;">not C</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">✗</td>
-<td style="text-align: center;">✗</td>
-<td style="text-align: center;">not C</td>
-<td style="text-align: center;">not C</td>
+<td style="text-align: center;"><span
+class="fragment highlight-current-green"
+data-fragment-index="1">✗</span></td>
+<td style="text-align: center;"><span
+class="fragment highlight-current-green"
+data-fragment-index="2">✗</span></td>
+<td style="text-align: center;"><span
+class="fragment highlight-current-green" data-fragment-index="3">not
+C</span></td>
+<td style="text-align: center;"><span
+class="fragment highlight-current-green" data-fragment-index="3">not
+C</span></td>
 </tr>
 </tbody>
 </table>
 </div>
+<div data-id="2">
+<p><span class="fragment" data-fragment-index="10"
+style="text-align:center;display:inherit">This leaves us with one more
+case to consider.</span></p>
+</div>
 </section>
-<section id="z-goes-missing-but-zt-is-actualized-auto-animate"
-class="slide level2">
-<h2>Z goes missing, but ZT is actualized {auto-animate}</h2>
+<section id="the-last-case-to-consider" class="slide level2"
+data-auto-animate="true">
+<h2 data-auto-animate="true">The last case to consider</h2>
 <div data-id="1">
 <table>
 <thead>
@@ -1088,15 +1109,14 @@ class="slide level2">
 </table>
 </div>
 <ul>
+<li class="fragment">Suppose Z goes missing, but ZT does not.</li>
 <li class="fragment">Al-Dashtakī does not discuss the status of ZTT and
-ZTF when Z goes missing but ZT does not.</li>
-<li class="fragment">But we already know from earlier that he thinks
-that, in this situation, ZT is not correct.</li>
+ZTF in this case.</li>
 </ul>
 </section>
-<section id="z-goes-missing-but-zt-is-actualized-auto-animate-1"
-class="slide level2">
-<h2>Z goes missing, but ZT is actualized {auto-animate}</h2>
+<section id="the-last-case-to-consider-1" class="slide level2"
+data-auto-animate="true">
+<h2 data-auto-animate="true">The last case to consider</h2>
 <div data-id="1">
 <table>
 <thead>
@@ -1109,6 +1129,24 @@ class="slide level2">
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
+</tr>
+<tr class="even">
 <td style="text-align: center;">✗</td>
 <td style="text-align: center;">not C</td>
 <td style="text-align: center;">?</td>
@@ -1119,19 +1157,18 @@ class="slide level2">
 </div>
 <div>
 <ul>
-<li>Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes
-missing but ZT does not.</li>
+<li>Suppose Z goes missing, but ZT does not.</li>
+<li>Al-Dashtakī does not discuss the status of ZTT and ZTF in this
+case.</li>
 <li>But we already know from earlier that he thinks that, in this
 situation, ZT is not correct.</li>
-<li>Assuming the “traditional package”, this means that ZT is
-false.</li>
 </ul>
 </div>
 </section>
-<section id="z-goes-missing-but-zt-is-actualized-auto-animate-2"
-class="slide level2">
-<h2>Z goes missing, but ZT is actualized {auto-animate}</h2>
-<div data="id=1">
+<section id="the-last-case-to-consider-2" class="slide level2"
+data-auto-animate="true">
+<h2 data-auto-animate="true">The last case to consider</h2>
+<div data-id="1">
 <table>
 <thead>
 <tr class="header">
@@ -1143,6 +1180,24 @@ class="slide level2">
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
+</tr>
+<tr class="even">
 <td style="text-align: center;">✗</td>
 <td style="text-align: center;">F</td>
 <td style="text-align: center;">?</td>
@@ -1153,20 +1208,20 @@ class="slide level2">
 </div>
 <div>
 <ul>
-<li>Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes
-missing but ZT does not.</li>
+<li>Suppose Z goes missing, but ZT does not.</li>
+<li>Al-Dashtakī does not discuss the status of ZTT and ZTF in this
+case.</li>
 <li>But we already know from earlier that he thinks that, in this
 situation, ZT is not correct.</li>
 <li>Assuming the “traditional package”, this means that ZT is
 false.</li>
-<li>So ZTT, which says ZT is true, is not correct.</li>
 </ul>
 </div>
 </section>
-<section id="z-goes-missing-but-zt-is-actualized-auto-animate-3"
-class="slide level2">
-<h2>Z goes missing, but ZT is actualized {auto-animate}</h2>
-<div data="id=1">
+<section id="the-last-case-to-consider-3" class="slide level2"
+data-auto-animate="true">
+<h2 data-auto-animate="true">The last case to consider</h2>
+<div data-id="1">
 <table>
 <thead>
 <tr class="header">
@@ -1178,6 +1233,24 @@ class="slide level2">
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
+</tr>
+<tr class="even">
 <td style="text-align: center;">✗</td>
 <td style="text-align: center;">F</td>
 <td style="text-align: center;">not C</td>
@@ -1188,21 +1261,21 @@ class="slide level2">
 </div>
 <div>
 <ul>
-<li>Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes
-missing but ZT does not.</li>
+<li>Suppose Z goes missing, but ZT does not.</li>
+<li>Al-Dashtakī does not discuss the status of ZTT and ZTF in this
+case.</li>
 <li>But we already know from earlier that he thinks that, in this
 situation, ZT is not correct.</li>
 <li>Assuming the “traditional package”, this means that ZT is
 false.</li>
 <li>So ZTT, which says ZT is true, is not correct.</li>
-<li>And ZTF, which says that ZT is false, is correct.</li>
 </ul>
 </div>
 </section>
-<section id="z-goes-missing-but-zt-is-actualized-auto-animate-4"
-class="slide level2">
-<h2>Z goes missing, but ZT is actualized {auto-animate}</h2>
-<div data="id=1">
+<section id="the-last-case-to-consider-4" class="slide level2"
+data-auto-animate="true">
+<h2 data-auto-animate="true">The last case to consider</h2>
+<div data-id="1">
 <table>
 <thead>
 <tr class="header">
@@ -1214,6 +1287,24 @@ class="slide level2">
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">✗</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
+</tr>
+<tr class="even">
 <td style="text-align: center;">✗</td>
 <td style="text-align: center;">F</td>
 <td style="text-align: center;">not C</td>
@@ -1224,8 +1315,9 @@ class="slide level2">
 </div>
 <div>
 <ul>
-<li>Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes
-missing but ZT does not.</li>
+<li>Suppose Z goes missing, but ZT does not.</li>
+<li>Al-Dashtakī does not discuss the status of ZTT and ZTF in this
+case.</li>
 <li>But we already know from earlier that he thinks that, in this
 situation, ZT is not correct.</li>
 <li>Assuming the “traditional package”, this means that ZT is
@@ -1272,19 +1364,20 @@ today are false.”</p>
 <section id="the-payoff" class="slide level2">
 <h2>The Payoff</h2>
 <blockquote>
-<p><a href="#/fw76"></a> And it becomes apparent that [the falsity is
-considered in this specific saying twice]{.fragment
-.highlight-current-green}, and <span
+<p><a href="#/fw76"></a> And it becomes apparent that <span
+class="fragment highlight-current-green">the falsity is considered in
+this specific saying twice</span>, and <span
 class="fragment highlight-current-green">being considered twice, this
 requires two declaratives for it to be correct to attribute truth and
 falsity to it</span>. Since <span
 class="fragment highlight-current-green">only one declarative is
-actualized</span>, it is clear to you that [it is not correct to
-attribute to this saying truth]{.fragment .highlight-current-green}, and
-<span class="fragment highlight-current-green">not [correct to
-attribute] falsity.</span> And it weighs the same as your saying,
-“‘Zayd’s sentence is false,’ is true”, or “false”, if Zayd has no
-declarative except one. Reflect on that!</p>
+actualized</span>, it is clear to you that <span
+class="fragment highlight-current-green">it is not correct to attribute
+to this saying truth</span>, and <span
+class="fragment highlight-current-green">not [correct to attribute]
+falsity.</span> And it weighs the same as your saying, “‘Zayd’s sentence
+is false,’ is true”, or “false”, if Zayd has no declarative except one.
+Reflect on that!</p>
 </blockquote>
 </section>
 <section id="puzzles" class="slide level2" data-auto-animate="true">
@@ -1307,18 +1400,22 @@ L<sub>1</sub> and L<sub>2</sub> are the two required declaratives:</p>
 <tr class="odd">
 <td style="text-align: center;">?</td>
 <td style="text-align: center;">✗</td>
-<td style="text-align: center;">not correct</td>
-<td style="text-align: center;">not correct</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">✗</td>
 <td style="text-align: center;">?</td>
-<td style="text-align: center;">not correct</td>
-<td style="text-align: center;">not correct</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
 </tr>
 </tbody>
 </table>
 </div>
+<ul>
+<li class="fragment">But as we’ve seen, he is not entitled, by his own
+principles and forms of argument, to the last row.</li>
+</ul>
 </section>
 <section id="puzzles-1" class="slide level2" data-auto-animate="true">
 <h2 data-auto-animate="true">Puzzles</h2>
@@ -1336,28 +1433,31 @@ L<sub>1</sub> and L<sub>2</sub> are the two required declaratives:</p>
 <tr class="odd">
 <td style="text-align: center;">?</td>
 <td style="text-align: center;">✗</td>
-<td style="text-align: center;">not correct</td>
-<td style="text-align: center;">not correct</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">✗</td>
 <td style="text-align: center;">F</td>
-<td style="text-align: center;">not correct</td>
-<td style="text-align: center;">correct</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">C</td>
 </tr>
 </tbody>
 </table>
 </div>
+<div>
 <ul>
-<li class="fragment">But as we’ve seen, he is not entitled, by his own
-principles and forms of argument, to the last row.</li>
+<li>But as we’ve seen, he is not entitled, by his own principles and
+forms of argument, to the last row.</li>
+</ul>
+</div>
+<ul>
 <li class="fragment">Can we rule out that last row, on independent
-grounds?
-<ul>
+grounds?</li>
 <li class="fragment">If you need to say the same thing twice, and you
 only say it once, then maybe it is always the <em>second</em> saying
 that goes missing?</li>
-</ul></li>
+<li class="fragment">Let’s eliminate it.</li>
 </ul>
 </section>
 <section id="puzzles-2" class="slide level2" data-auto-animate="true">
@@ -1376,30 +1476,27 @@ that goes missing?</li>
 <tr class="odd">
 <td style="text-align: center;">?</td>
 <td style="text-align: center;">✗</td>
-<td style="text-align: center;">not correct</td>
-<td style="text-align: center;">not correct</td>
+<td style="text-align: center;">not C</td>
+<td style="text-align: center;">not C</td>
 </tr>
 </tbody>
 </table>
 </div>
 <ul>
-<li class="fragment">Suppose we have narrowed things down to just this
-possibility.</li>
-<li class="fragment">That ‘?’ is worrisome:
-<ul>
+<li class="fragment">That ‘?’ is worrisome.</li>
 <li class="fragment">We can’t say L<sub>1</sub> goes missing. For then,
-either <em>no</em> declarative is actualized, or L<sub>2</sub> is—but we
-need to avoid that possibility.</li>
+either <em>no</em> declarative is actualized, which isn’t al-Dashtakī’s
+view; or L<sub>2</sub> is actualized but L<sub>1</sub> is not, but
+that’s the row we just eliminated.</li>
 <li class="fragment">So either L<sub>1</sub> is true, or it is
 false.</li>
 <li class="fragment">Perhaps L<sub>1</sub> is false because it has an
-empty subject, L<sub>0</sub>. But that also recreates the possibility we
-need to avoid, just shifted one column over.</li>
+empty subject, L<sub>0</sub>. But this recreates our eliminated row,
+shifted one column left.</li>
 <li class="fragment">In fact, any assignment of truth value to
 L<sub>1</sub> is a problem. For what stops <em>us</em> from then
-correctly saying that L<sub>1</sub> has that truth value, collapsing the
-entire structure of al-Dashtakī’s solution.</li>
-</ul></li>
+correctly saying that L<sub>1</sub> has <em>that</em> truth value,
+collapsing the entire structure of al-Dashtakī’s solution?</li>
 </ul>
 </section></section>
 <section>
@@ -1475,14 +1572,12 @@ Ephesus in the 12th century CE.</li>
 <li class="fragment">Could be Alexander’s commentary on <em>Topics</em>
 II.7:
 <ul>
-<li class="fragment">Not spurious! Discusses the Liar and not spurious
-<span class="citation" data-cites="alexander2020">(Alexander and
-Castelli 2020, 188:4–189:10)</span>.</li>
+<li class="fragment">Not spurious, and he discusses the Liar!</li>
 <li class="fragment">Ibn ʿAdī says he consulted it when writing his own
-commentary on <em>Topics</em> <span class="fragment">but also says that
-his copy was missing Alexander’s commentary on books II, III, and IV
-<span class="citation" data-cites="endress1977">(Endress 1977,
-25)</span></span>.</li>
+commentary on <em>Topics</em>!</li>
+<li class="fragment">But he also says that his copy was missing
+Alexander’s commentary on books II, III, and IV <span class="citation"
+data-cites="endress1977">(Endress 1977, 25)</span>.</li>
 </ul></li>
 </ul>
 <aside class="notes">
@@ -1490,16 +1585,10 @@ his copy was missing Alexander’s commentary on books II, III, and IV
 curriculum, presented as exercises to students by teachers.</p>
 </aside>
 </section>
-<section id="references" class="slide level2 unnumbered">
-<h2 class="unnumbered">References</h2>
+<section class="slide level2">
+
 <div id="refs" class="references csl-bib-body hanging-indent"
 role="list">
-<div id="ref-alexander2020" class="csl-entry" role="listitem">
-Alexander, and Laura Maria Castelli. 2020. <em>On
-<span>Aristotle</span>, <span>Topics</span> 2</em>. Ancient Commentators
-on <span>Aristotle</span>. <span>London ; New York</span>:
-<span>Bloomsbury Academic</span>.
-</div>
 <div id="ref-alwishah2009a" class="csl-entry" role="listitem">
 Alwishah, Ahmed, and David Sanson. 2009. <span>“The <span>Early Arabic
 Liar</span>: <span>The Liar Paradox</span> in the <span>Islamic

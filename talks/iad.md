@@ -456,11 +456,11 @@ ZF
 ## A First Example {#an-example-1 auto-animate="true"}
 
 ::: {data-id="1"}
-   Z       ZT            ZF
-  --- ------------- -------------
-   T     Correct    
-   F                   Correct
-   ✗   not Correct   not Correct
+   Z    ZT      ZF
+  --- ------- -------
+   T     C    
+   F             C
+   ✗   not C   not C
 :::
 
 -   As when we considered Ibn ʿAdī, '✗' does not indicate a truth value.
@@ -498,10 +498,10 @@ ZT
 :   Z is true
 
 ZTT
-:   [ZT is true]{.fragment .highlight-current-green fragment-index=1}: requires both Z and ZT.
+:   [ZT is true]{.fragment .highlight-current-green fragment-index=1}: [requires]{.fragment .highlight-current-green fragment-index=10} both Z and ZT.
 
 ZTF
-:   ZT is false: requires both Z and ZT.
+:   ZT is false: [requires]{.fragment .highlight-current-green fragment-index=10} both Z and ZT.
 :::
 
 ::: {.nonincremental style="flex:1"}
@@ -513,10 +513,10 @@ ZF
 :   Z is false
 
 ZFF
-:   [ZF is false]{.fragment .highlight-current-green fragment-index=2}: requires both Z and ZF.
+:   [ZF is false]{.fragment .highlight-current-green fragment-index=2}: [requires]{.fragment .highlight-current-green fragment-index=10} both Z and ZF.
 
 ZFT
-:   ZF is true: requires both Z and ZF
+:   ZF is true: [requires]{.fragment .highlight-current-green fragment-index=10} both Z and ZF
 
 :::
 
@@ -525,7 +525,7 @@ ZFT
 |
 |
 
-['requires' here is short for 'requires to be correct'.]{.fragment .highlight-current-green style="text-align:center;display:inherit"}
+['requires' here is short for 'requires to be correct'.]{.fragment .highlight-current-green style="text-align:center;display:inherit" fragment-index=10}
 
 ---
 
@@ -552,25 +552,30 @@ ZFT
    T   ✗    [not C]{.fragment .highlight-current-green fragment-index="4"}   [not C]{.fragment .highlight-current-green fragment-index="3"}
    F   ✗    [not C]{.fragment .highlight-current-green fragment-index="4"}   [not C]{.fragment .highlight-current-green fragment-index="3"}
 
----
+## \  {auto-animate=true}
 
-Finally, he talks about the possibility that both Z and ZT go missing:
-
-> Likewise, if one does not declare and \[does not\] judge that my declarative
-> is true, \[then\] it is not correct to attribute truth or falsity to it,
+> Likewise, if [one does not declare]{.fragment .highlight-current-green
+> fragment-index="1"} and [\[does not\] judge that my declarative is
+> true]{.fragment .highlight-current-green fragment-index="2"}, \[then\] [it
+> is not correct to attribute truth or falsity to it]{.fragment
+> .highlight-current-green fragment-index="3"},
 > because one's saying, "My declarative is true," is missing, that is, due to
 > the lack of the declarative which is judged to be true, which is needed to
 > actualize the attribution of the two truths or the two falsities.
 
-:::{data-id=1}
-   Z   ZT    ZTT     ZTF
-  --- ---- ------- -------
-   T   ✗    not C   not C
-   F   ✗    not C   not C
-   ✗   ✗    not C   not C
+::: {data-id="1"}
+                               Z                                                            ZT                                                            ZTT                                                              ZTF
+  ------------------------------------------------------------ ------------------------------------------------------------ ---------------------------------------------------------------- ----------------------------------------------------------------
+                               T                                                            ✗                                                            not C                                                            not C
+                               F                                                            ✗                                                            not C                                                            not C
+   [✗]{.fragment .highlight-current-green fragment-index="1"}   [✗]{.fragment .highlight-current-green fragment-index="2"}   [not C]{.fragment .highlight-current-green fragment-index="3"}   [not C]{.fragment .highlight-current-green fragment-index="3"}
 :::
 
-## Z goes missing, but ZT is actualized {auto-animate}
+:::{data-id="2"}
+[This leaves us with one more case to consider.]{.fragment fragment-index=10 style="text-align:center;display:inherit"}
+:::
+
+## The last case to consider {auto-animate=true}
 
 ::: {data-id="1"}
    Z   ZT    ZTT     ZTF
@@ -581,64 +586,77 @@ Finally, he talks about the possibility that both Z and ZT go missing:
    ✗   ?      ?       ?
 :::
 
--   Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes missing but ZT does not.
--   But we already know from earlier that he thinks that, in this situation, ZT is not correct.
+-   Suppose Z goes missing, but ZT does not.
+-   Al-Dashtakī does not discuss the status of ZTT and ZTF in this case.
 
-## Z goes missing, but ZT is actualized {auto-animate}
+## The last case to consider {auto-animate=true}
 
 ::: {data-id="1"}
-   Z    ZT     ZTT   ZTF
-  --- ------- ----- -----
-   ✗   not C    ?     ?
+   Z    ZT      ZTT     ZTF
+  --- ------- ------- -------
+   T     ✗     not C   not C
+   F     ✗     not C   not C
+   ✗     ✗     not C   not C
+   ✗   not C     ?       ?
 :::
 
 :::nonincremental
--   Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes missing but ZT does not.
+-   Suppose Z goes missing, but ZT does not.
+-   Al-Dashtakī does not discuss the status of ZTT and ZTF in this case.
+-   But we already know from earlier that he thinks that, in this situation, ZT is not correct.
+:::
+
+## The last case to consider {auto-animate=true}
+
+::: {data-id="1"}
+   Z    ZT      ZTT     ZTF
+  --- ------- ------- -------
+   T     ✗     not C   not C
+   F     ✗     not C   not C
+   ✗     ✗     not C   not C
+   ✗     F     ?       ?
+:::
+
+::: nonincremental
+-   Suppose Z goes missing, but ZT does not.
+-   Al-Dashtakī does not discuss the status of ZTT and ZTF in this case.
 -   But we already know from earlier that he thinks that, in this situation, ZT is not correct.
 -   Assuming the "traditional package", this means that ZT is false.
 :::
 
-## Z goes missing, but ZT is actualized {auto-animate}
+## The last case to consider {auto-animate=true}
 
-::: {data="id=1"}
-   Z   ZT   ZTT   ZTF
-  --- ---- ----- -----
-   ✗   F     ?     ?
+::: {data-id="1"}
+   Z    ZT      ZTT     ZTF
+  --- ------- ------- -------
+   T     ✗     not C   not C
+   F     ✗     not C   not C
+   ✗     ✗     not C   not C
+   ✗     F     not C      ?
 :::
 
 ::: nonincremental
--   Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes missing but ZT does not.
+-   Suppose Z goes missing, but ZT does not.
+-   Al-Dashtakī does not discuss the status of ZTT and ZTF in this case.
 -   But we already know from earlier that he thinks that, in this situation, ZT is not correct.
 -   Assuming the "traditional package", this means that ZT is false.
 -   So ZTT, which says ZT is true, is not correct.
 :::
 
-## Z goes missing, but ZT is actualized {auto-animate}
+## The last case to consider {auto-animate=true}
 
-::: {data="id=1"}
-   Z   ZT    ZTT    ZTF
-  --- ---- ------- -----
-   ✗   F    not C    ?
+::: {data-id="1"}
+   Z    ZT      ZTT     ZTF
+  --- ------- ------- -------
+   T     ✗     not C   not C
+   F     ✗     not C   not C
+   ✗     ✗     not C   not C
+   ✗     F     not C    C 
 :::
 
 ::: nonincremental
--   Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes missing but ZT does not.
--   But we already know from earlier that he thinks that, in this situation, ZT is not correct.
--   Assuming the "traditional package", this means that ZT is false.
--   So ZTT, which says ZT is true, is not correct.
--   And ZTF, which says that ZT is false, is correct.
-:::
-
-## Z goes missing, but ZT is actualized {auto-animate}
-
-::: {data="id=1"}
-   Z   ZT    ZTT    ZTF
-  --- ---- ------- -----
-   ✗   F    not C    C
-:::
-
-::: nonincremental
--   Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes missing but ZT does not.
+-   Suppose Z goes missing, but ZT does not.
+-   Al-Dashtakī does not discuss the status of ZTT and ZTF in this case.
 -   But we already know from earlier that he thinks that, in this situation, ZT is not correct.
 -   Assuming the "traditional package", this means that ZT is false.
 -   So ZTT, which says ZT is true, is not correct.
@@ -674,12 +692,12 @@ Finally, he talks about the possibility that both Z and ZT go missing:
 ## The Payoff
 
 > [](#fw76) And it becomes apparent that [the falsity is considered in this
-> specific saying twice\]{.fragment .highlight-current-green}, and [being
+> specific saying twice]{.fragment .highlight-current-green}, and [being
 > considered twice, this requires two declaratives for it to be correct to
 > attribute truth and falsity to it]{.fragment .highlight-current-green}.
 > Since [only one declarative is actualized]{.fragment
 > .highlight-current-green}, it is clear to you that [it is not correct to
-> attribute to this saying truth\]{.fragment .highlight-current-green}, and
+> attribute to this saying truth]{.fragment .highlight-current-green}, and
 > [not \[correct to attribute\] falsity.]{.fragment .highlight-current-green}
 > And it weighs the same as your saying, "'Zayd's sentence is false,'
 > is true", or "false", if Zayd has no declarative except one. Reflect on
@@ -692,55 +710,63 @@ How he wants us to think of the situation: L requires two declaratives, but only
 :::{data-id=1}
    L~1~   L~2~    L~2~ is true    L~2~ is false
   ------ ------ ---------------- ----------------
-    ?      ✗     not correct      not correct
-    ✗      ?     not correct      not correct
-:::
-
-
-## Puzzles {auto-animate=true}
-
-
-:::{data-id=1}
-   L~1~   L~2~    L~2~ is true    L~2~ is false
-  ------ ------ ---------------- ----------------
-    ?      ✗     not correct      not correct
-    ✗      F     not correct      correct
+    ?      ✗     not C            not C      
+    ✗      ?     not C            not C      
 :::
 
 -   But as we've seen, he is not entitled, by his own principles and forms of
     argument, to the last row.
+
+
+## Puzzles {auto-animate=true}
+
+
+:::{data-id=1}
+   L~1~   L~2~    L~2~ is true    L~2~ is false
+  ------ ------ ---------------- ----------------
+    ?      ✗     not C            not C      
+    ✗      F     not C            C      
+:::
+
+:::nonincremental
+-   But as we've seen, he is not entitled, by his own principles and forms of
+    argument, to the last row.
+:::
+
 -   Can we rule out that last row, on independent grounds?
-    -   If you need to say the same thing twice, and you only say it once,
-        then maybe it is always the *second* saying that goes missing?
+-   If you need to say the same thing twice, and you only say it once, then
+    maybe it is always the *second* saying that goes missing?
+-   Let's eliminate it.
 
 ## Puzzles {auto-animate=true}
 
 :::{data-id=1}
    L~1~   L~2~    L~2~ is true    L~2~ is false
   ------ ------ ---------------- ----------------
-    ?      ✗     not correct      not correct
+    ?      ✗     not C            not C      
 :::
 
--   Suppose we have narrowed things down to just this possibility.
--   That '?' is worrisome:
-    -   We can't say L~1~ goes missing. For then, either *no* declarative is
-        actualized, or L~2~ is---but we need to avoid that possibility.
-    -   So either L~1~ is true, or it is false.
-    -   Perhaps L~1~ is false because it has an empty subject, L~0~. But that
-        also recreates the possibility we need to avoid, just shifted one
-        column over.
-    -   In fact, any assignment of truth value to L~1~ is a problem. For what
-        stops *us* from then correctly saying that L~1~ has that truth value,
-        collapsing the entire structure of al-Dashtakī's solution.
+-   That '?' is worrisome.
+-   We can't say L~1~ goes missing. For then, either *no* declarative is
+    actualized, which isn't al-Dashtakī's view; or L~2~ is actualized but L~1~ is not, but that's the row we just eliminated.
+-   So either L~1~ is true, or it is false.
+-   Perhaps L~1~ is false because it has an empty subject, L~0~. But this recreates our eliminated row, shifted one column left.
+-   In fact, any assignment of truth value to L~1~ is a problem. For what
+    stops *us* from then correctly saying that L~1~ has *that* truth value,
+    collapsing the entire structure of al-Dashtakī's solution?
 
 # Conclusion
 
 ## Ibn ʿAdī and al-Dashtakī: a comparison {auto-animate=true}
 
--   Both Ibn ʿAdī and al-Dashtakī agree that, in some circumstances, a declarative is neither true nor false.
--   For Ibn ʿAdī, this is when it is actualized as a declared-about, and so exits from being a declarative.
+-   Both Ibn ʿAdī and al-Dashtakī agree that, in some circumstances, a
+    declarative is neither true nor false.
+-   For Ibn ʿAdī, this is when it is actualized as a declared-about, and so
+    exits from being a declarative.
 -   For Dashtakī, this is when it is not actualized, and so goes missing.
--   If we use '✗' in a neutral way, to indicate that the declarative in question fails, for whatever reason, to be true or false, then we can represent their views in a simple table:
+-   If we use '✗' in a neutral way, to indicate that the declarative in
+    question fails, for whatever reason, to be true or false, then we can
+    represent their views in a simple table:
    
     :::{data-id=1}
                    L~1~   L~2~  
@@ -764,9 +790,9 @@ How he wants us to think of the situation: L requires two declaratives, but only
 -   Not Alexander's commentary on *SR*:
     -   because it is spurious, written by Michael of Ephesus in the 12th century CE.
 -   Could be Alexander's commentary on *Topics* II.7:
-    -   Not spurious! Discusses the Liar and not spurious [@alexander2020 188:4-189:10].
-    -   Ibn ʿAdī says he consulted it when writing his own commentary on *Topics* [but also says that his copy was
-    missing Alexander's commentary on books II, III, and IV [@endress1977, 25]]{.fragment}.
+    -   Not spurious, and he discusses the Liar! 
+    -   Ibn ʿAdī says he consulted it when writing his own commentary on *Topics*! 
+    -   But he also says that his copy was missing Alexander's commentary on books II, III, and IV [@endress1977, 25].
 
 :::notes
 
@@ -774,6 +800,5 @@ Our guess: puzzles like the Liar were part of the standard logic curriculum, pre
 
 :::
 
-
-## References
+---
 
