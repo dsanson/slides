@@ -772,6 +772,8 @@ C
 
 # Conclusion
 
+## Ibn ʿAdī and al-Dashtakī: a comparison
+
 -   Ibn ʿAdī says that the Liar as declared-about lacks truth value, so the Liar as declarative is false.
 -   Dashtakī says that the Liar requires two declaratives, but (we've argued), while the first exists, the second does not, so
     the Liar lacks truth value.
