@@ -12,7 +12,7 @@
 
 
 // Include theme-specific fonts
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:ital,wght@0,500;0,700;1,400;1,700&display=swap');
 @font-face{
     font-family: "Fira Logic";
     src: url('https://cdn.jsdelivr.net/gh/gleachkr/FiraLogic/dist/FiraLogic-Regular.woff') format('woff');
@@ -32,7 +32,7 @@ $mainFontSize: 42px;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
-$headingFontWeight: 700;
+$headingFontWeight: 500;
 $linkColor: #42affa;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: rgba( $linkColor, 0.75 );
@@ -171,13 +171,29 @@ video.live-video.bradybunch {
 
 .reveal .slides {
   text-align: left;
-
+  h1,h2 {
+    text-align:center;
+  }
+  
+  ol,ul {
+    margin-left: 2em;
+  }
   blockquote {
     text-align: left;
     background: rgba(255, 255, 255, 0.20);
     padding: 0em 1em;
     border-radius: 1em;
     font-style: normal;
+  }
+  dl {
+    display: grid;
+    grid-template: auto / 2em auto;
+    dt {
+      font-weight: normal;
+      &::after {
+        content: '.'
+      }
+    }
   }
 }
 

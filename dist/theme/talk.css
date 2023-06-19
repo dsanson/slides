@@ -3,7 +3,7 @@
  *
  * By David Sanson
  */
-@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:ital,wght@0,700;0,900;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:ital,wght@0,500;0,700;1,400;1,700&display=swap");
 @font-face {
   font-family: "Fira Logic";
   src: url("https://cdn.jsdelivr.net/gh/gleachkr/FiraLogic/dist/FiraLogic-Regular.woff") format("woff");
@@ -108,11 +108,28 @@ video.live-video.bradybunch {
 .reveal .slides {
   text-align: left;
 }
+.reveal .slides h1, .reveal .slides h2 {
+  text-align: center;
+}
+.reveal .slides ol, .reveal .slides ul {
+  margin-left: 2em;
+}
 .reveal .slides blockquote {
   text-align: left;
   background: rgba(255, 255, 255, 0.2);
   padding: 0em 1em;
   border-radius: 1em;
+  font-style: normal;
+}
+.reveal .slides dl {
+  display: grid;
+  grid-template: auto/2em auto;
+}
+.reveal .slides dl dt {
+  font-weight: normal;
+}
+.reveal .slides dl dt::after {
+  content: ".";
 }
 
 .vocab {
@@ -137,7 +154,7 @@ video.live-video.bradybunch {
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: none;
   --r-heading-text-shadow: none;
-  --r-heading-font-weight: 700;
+  --r-heading-font-weight: 500;
   --r-heading1-text-shadow: none;
   --r-heading1-size: 1.6em;
   --r-heading2-size: 1.6em;
