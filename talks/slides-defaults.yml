@@ -1,3 +1,15 @@
+track-changes: all
+citeproc: true
+standalone: true
+incremental: true
 variables:
   revealjs-url: '../'
   theme: 'talk'
+filters:
+  - diagram.lua
+  - pantable
+metadata:
+  bibliography: /Users/desanso/d/research/Zotero.bib
+  track-changes: all
+  mainfont: Times New Roman
+

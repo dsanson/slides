@@ -73,6 +73,19 @@ $heading4Size: 1.0em;
   }
 }
 
+// level1 .slides
+
+.reveal .slides section.level1 {
+  display: grid !important;
+  grid-template: auto auto auto / auto;
+  
+  h1 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    font-size: 60px !important;
+  }
+}
+
 // two-column slide
 .reveal .slides section.two-up {
   display: grid;
