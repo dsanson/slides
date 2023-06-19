@@ -71,6 +71,19 @@ $heading4Size: 1.0em;
     grid-row-start: 2;
     text-align:center;
   }
+  .qrcode {
+    grid-row: 2;
+    grid-column: 3;
+    min-height: 10em;
+    min-width: 10em;
+  }
+  .url {
+    grid-row: 3;
+    grid-column-start: 2;
+    grid-colum-end: 3;
+    text-align: center;
+  }
+  
 }
 
 // level1 .slides

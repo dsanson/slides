@@ -70,6 +70,12 @@ $endfor$
 $if(date)$
   <p class="date">$date$</p>
 $endif$
+$if(qrcode)$
+  <img class="qrcode" src="$qrcode$"/> 
+$endif$
+$if(url)$
+  <a href="$url$" class="url">$url$</a>
+$endif$
 </section>
 $endif$
 $if(toc)$

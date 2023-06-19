@@ -35,6 +35,18 @@ section.has-light-background, section.has-light-background h1, section.has-light
   grid-row-start: 2;
   text-align: center;
 }
+.reveal .slides section#title-slide .qrcode {
+  grid-row: 2;
+  grid-column: 3;
+  min-height: 10em;
+  min-width: 10em;
+}
+.reveal .slides section#title-slide .url {
+  grid-row: 3;
+  grid-column-start: 2;
+  grid-colum-end: 3;
+  text-align: center;
+}
 
 .reveal .slides section.level1 {
   display: grid !important;

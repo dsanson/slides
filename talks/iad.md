@@ -9,6 +9,8 @@ author:
   David Sanson\
   Illinois State University\
   <desanso@ilstu.edu>
+qrcode: qrcode.png
+url: https://dsanson.github.io/slides/talks/iad.html 
 ---
 
 # Introduction
