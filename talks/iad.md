@@ -44,7 +44,7 @@ table-width: 3/4
 markdown: True
 ---
 Name,Death (CE)
-[Yahya Ibn ʿAdī]{.fragment .highlight-green},974
+[Yahya Ibn ʿAdī]{.fragment .highlight-green fragment-index=1},974
 Fakr al-Dīn al-Razi,1210
 Athīr al-Dīn al-Abharī,1265
 Nasīr al-Dīn al-Ṭūsī,1274
@@ -52,9 +52,9 @@ Najm al-Dīn al-Quzwini al-Kātibī,1276
 Saʿad Ibn Mansūr Ibn Kammūna,1284
 Shams al-Dīn Muhammad al-Samarqandī,1322
 Ibn al-Muṭahhar al-Ḥillī,1325
-al-Taftazānī,1390
+Saʿd al-Dīn al-Taftāzānī,1390
 al-Sayyid al-Sharīf al-Jurjānī,1413
-[Ṣadr al-Dīn al-Dashtakī]{.fragment .highlight-green},1498
+[Ṣadr al-Dīn al-Dashtakī]{.fragment .highlight-green fragment-index},1498
 Jalāl al-Dīn al-Dawānī,1502
 ```
 :::
@@ -68,7 +68,7 @@ alignment: LR
 table-width: 3/4
 markdown: True
 ---
-Idea,Proponents
+Basic Idea,Proponents
 The Liar is false because it contradicts itself.,"al-Razi; al-Abharī; al-Kātibī; Ibn Kammūna"
 "The Liar is not true because truth requires correspondence and correspondence requires distinct relata.","al-Ṭūsī; al-Ḥillī; Ibn Kammūna"
 "[The Liar is really two declaratives not one; or as if two; or requires two; or involves one playing two roles.]{.fragment .highlight-green fragment-index=1}","[Ibn ʿAdī]{.fragment .highlight-green fragment-index=1}; al-Razi; al-Samarqandī; al-Taftazānī; [al-Dashtakī]{.fragment .highlight-green fragment-index=1}; Ibn Kammūna"
@@ -104,16 +104,16 @@ The Liar is false because it contradicts itself.,"al-Razi; al-Abharī; al-Kātib
 ## Context
 
 -    In 932, in a famous public debate on the relative merits of (Greek) logic and (Arabic) grammar.
--    Abū Bishr Mattā argued,
+-    Abū Bishr Mattā argued that logic is better than grammar because
 
-     > The logician does not need grammar, whereas the grammarian has a strong need
-     > for logic, because [logic investigates meaning (*maʿnā*) whereas grammar
+     > [logic investigates meaning (*maʿnā*) whereas grammar
      > investigates utterance (*lafẓ*).]{.fragment .highlight-current-green}
 
--    The Liar occurs in two closely related works by Ibn ʿAdī, in which he develops and defends this position:
+-   In two closely related works, Ibn ʿAdī defends this view, in part by
+    showing how we can use logic to solve the Liar:
 
-     -    *Explaining the Virtue of the Art of Logic*
-     -    *The Virtues of Logic*, a solution manual to *Explaining*
+    -   *Explaining the Virtue of the Art of Logic*
+    -   A solutions manual to *Explaining, *The Virtues of Logic*
 
 ## *Explaining the Virtue of the Art of Logic*
 
@@ -126,7 +126,7 @@ The Liar is false because it contradicts itself.,"al-Razi; al-Abharī; al-Kātib
 
 -   Part I:
 
-    > The logicians divide the saying, 'The standing other than the
+    > Logicians divide the saying, 'The standing other than the
     > sitting (*al-qāʾim ghayr al-qāʿid*),' in 16384 ways \[=$2^14$\], as we
     > will explain, whereas the other practical arts are unable to do so.
 
@@ -135,21 +135,10 @@ The Liar is false because it contradicts itself.,"al-Razi; al-Abharī; al-Kātib
     > Another benefit of logic is to dissolve some common problems that were
     > brought by the sophists.
 
-## Four Problems
+-   One of those four problems is the Liar. [Solutions are left as an exercise to the reader]{.fragment}
 
-1.   The Liar.
-
-2.   Everyone who says he is a donkey is truthful
-   
-3.   Every man has many species
-   
-4.   Body is either animal or not animal, so either rock is animal or
-     animal is not animal.
-
--   Solutions are left as an exercise for the reader.
-
--   Luckily, a friend reached out, asking for a solution manual, so Ibn ʿAdī wrote *Virtues*.
-   
+-   Luckily, a friend reached out, and asked for a solution manual. In *Virtues*, we get his solution to the Liar.
+ 
 :::notes
 
 >| Everyone who says he is a donkey says he is an animal.
@@ -176,7 +165,7 @@ A puzzle about Aristotle's *dictum de omni et nullo* (*Categories* 1b
 
 :::
 
-## Ibn ʿAdī's presentation of the Liar in *Explaining*
+## The Liar
 
 > Tell us about he who says, '[All my sayings (*qawl*) are false]{.fragment
 > .highlight-green },' if [he has not spoken
@@ -191,39 +180,25 @@ A puzzle about Aristotle's *dictum de omni et nullo* (*Categories* 1b
     "All my sayings in this house are false'.
 -   We also find Liar cycles and the Truthteller.
 
-## Ibn ʿAdī's Solution
-
--   The Liar is false:
-
-    > This saying (*al-qawl*) is false, and it is not possibly true. 
-
--   It is false because one of his sayings is not false:
-
-    > For he is declaring about the totality of [his] sayings, and one of
-    > them is the saying that all of them are false, and it is not the case that
-    > the totality of other sayings that he declared to be false are
-    > false. So, the saying that they are false is true.
-
--   But that's weird, because the Liar is supposed to be his only saying.
-
----
+## Ibn ʿAdī's Solution {auto-animate=true}
 
 > For in entering into its totality, and declaring about the totality of which
 > it is one, the saying is a declarative about itself too, and [it becomes a declarative (*khabar*) and
-> a declared-about (*mukhbar ʿanhu*)]{.fragment fragment-index=2 .highlight-current-green}. And
+> a declared-about (*mukhbar ʿanhu*)]{.fragment  .highlight-current-green}. And
 > [each declarative that is posited as a declared-about, exits in this
-> condition from being a declarative]{.fragment fragment-index=3 .highlight-current-green}.
+> condition from being a declarative]{.fragment  .highlight-current-green}.
 > [So, this saying, insofar as it is a declaring about itself, is not a
-> declarative]{.fragment fragment-index=4 .highlight-current-green}, and [each saying that is not a declarative is neither true nor false]{.fragment fragment-index=5 .highlight-current-green}, and [if this saying is posited as \[a
-> declared-about\] it is neither true nor false]{.fragment fragment-index=6 .highlight-current-green}.
+> declarative]{.fragment  .highlight-current-green}, and [each saying that is not a declarative is neither true nor false]{.fragment  .highlight-current-green}, and [if this saying is posited as \[a
+> declared-about\] it is neither true nor false]{.fragment  .highlight-current-green}.
 
-:::nonincremental
-1.  [L is both a declarative and a declared-about.]{.fragment .highlight-current-green fragment-index=2 }
-2.  [When a declarative is posited as a declared-about, it "exits in this
-    condition from being" a declarative.]{.fragment .highlight-current-green fragment-index=3 }
-3.  [As declared-about, L is not a declarative.]{.fragment .highlight-current-green fragment-index=4 }
-4.  [Sayings that are not declaratives are neither true nor false.]{.fragment .highlight-current-green fragment-index=5 }
-5.  [So, as a declared-about, L is neither true nor false.]{.fragment .highlight-current-green fragment-index=6 }
+:::{data-id=1}
+-   The Liar is false, because its declared-about (*muhkbar ʿanhu*)---which is
+    itself---is neither true nor false.
+-   At first, that sounds like a contradiction: how can it be neither true nor
+    false, and also false?
+-   The answer is this interesting view about what happens to
+    a declarative (*khabar*) when it is made into a declared-about: in that
+    condition, it "exits from being a declarative".
 :::
 
 :::notes
@@ -232,39 +207,30 @@ A "declared-about" (*mukhbar ʿanhu*) is the subject of a declarative. If I
 say, 'Zayd is sitting', Zayd, the man, is the declared-about. If I say, 'All
 my students are from Illinois', each individual student is a declared-abouts.
 
-:::
-
 TODO: Ahmed, I would like the arabic for 'exiting from being'
-
-
-----
-
-> And because [it is declaring about itself that it is false]{.fragment
-> .highlight-current-green fragment-index="1"}, [in the case in which it is
-> neither true nor false]{.fragment .highlight-current-green
-> fragment-index="2"}, [it is false and must not be true]{.fragment
-> .highlight-current-green fragment-index="3"}. For in order for it to be true
-> it must declare about itself that it is false in the case in which it is
-> false, and it must not be the subject of a declaration of its own falsehood,
-> for in that case, it is not a declarative, and therefore it cannot be true
-> when it declares about itself that it is false. And this is the solution to
-> this problem.
-
-
-:::nonincremental
-5.  [As a declared-about, L is neither true nor false.]{.fragment .highlight-current-green fragment-index=2}
-6.  [As a declarative, L declares that all its declared-abouts are false.]{.fragment fragment-index=1 .highlight-current-green}
-7.  So, [as a declarative, L is false.]{.fragment fragment-index=3 .highlight-current-green}
-8.  So, L is false.
 :::
 
 
-## Defense of (2): Exiting from being a declarative 
+## Ibn ʿAdī's Solution {auto-animate=true}
 
-1.  [When I declare, '"Zayd is standing" is a declarative', I do not declare 'Zayd is standing'.]{.fragment .highlight-current-green fragment-index=1}
-2.  Likewise in other cases.
-3.  So, [when a declarative is made the declared-about of another declarative, it exits from being a declarative.]{data-id=1}
-  
+:::{data-id=1 .nonincremental}
+-   The Liar is false, because its declared-about (*muhkbar ʿanhu*)---which is
+    itself---is neither true nor false.
+-   At first, that sounds like a contradiction: how can it be neither true nor
+    false, and also false?
+-   The answer is this interesting view about what happens to
+    a declarative (*khabar*) when it is made into a declared-about: in that
+    condition, it "exits from being a declarative".
+-   So, if L~1~ is the Liar as a declared-about, and L~2~ is the Liar as declarative:
+:::
+
+            L~1~            L~2~: L~1~ is false
+  ------------------------ ---------------------
+   neither true nor false          false
+
+
+## Exiting from being a declarative
+
 > As for [the claim that] if the declarative is posited as a
 > declared-about, it exits in this condition from being a declarative,
 > this is something that can be explained by induction. For [if you say '"Zayd
@@ -273,6 +239,29 @@ TODO: Ahmed, I would like the arabic for 'exiting from being'
 > .highlight-current-green fragment-index="1"}, in all
 > these sayings, that Zayd is standing, or that ʿAmran is running, or that
 > Bread is beneficial, and this applies to all other declaratives.
+
+1.  [When I declare, '"Zayd is standing" is a declarative', I do not declare 'Zayd is standing'.]{.fragment .highlight-current-green fragment-index=1}
+2.  Likewise in other cases.
+3.  So, [when a declarative is made the declared-about of another declarative, it exits from being a declarative.]{data-id=1}
+
+## Declaring makes the declarative
+
+-   Ibn ʿAdī here makes the standard Aristotelian assumption that what makes a
+    saying a declarative---the glue that binds words into a truth-apt
+    representation---is the act of declaring.
+
+-   For example, in *al Qiyas* V 236, Avicenna discusses the status of propositions that
+    are parts of conditionals:
+
+    > \[When\] a condition is \[stated\], each of two parts will no longer
+    > be a proposition (*qaddiya*).
+
+-   So, he goes on to say, they are neither true nor false, and so cannot be assented to or doubted.
+
+-   The Aristotelian reasons for thinking that propositions, when made parts
+    of a conditional, lose their status as propositions, equally support Ibn
+    ʿAdī's claim that declaratives, when quoted, lose their status as
+    declaratives.
 
 ## A Davidsonian thought about quotation 
 
@@ -288,87 +277,38 @@ TODO: Ahmed, I would like the arabic for 'exiting from being'
     3.   A declarative is no longer a declarative if it is in a condition where it is not declared.
     4.   As a declared-about, a declarative is no longer a declarative.
 
--   So the saying *in itself*, which is a declarative, and the very same
-    saying *as a declared-about*, where it is not a declarative.
-
-## A Frege-Geach thought about exiting from being a declarative
-
--   In *al Qiyas* V 236, Avicenna discusses the status of propositions that
-    are parts of conditionals, saying,
-
-    > \[When\] a condition is \[stated\], each of two parts will no longer
-    > be a proposition (*qaddiya*).
-
-    and so, he says, they are neither true nor false, and so cannot be assented to our doubted.
-
--   We take it that Ibn ʿAdī's treatment of quotation is very much in the same
-    spirit, and motivated by the same background Aristotelian views about the
-    role of judging or declaring in constituting a truth-apt representation.
+-   This suggests a distinction between the saying *in itself*---which is a
+    declarative, and the saying *as displayed*, that is, *as a declared-about*---which exits from being
+    a declarative.
 
 ## A few pretty obvious objections
 
-1.  Over-generalization: what he says perhaps applies to quotation, where the
-    declared-about is displayed. But why think that extends to cases in which
-    the declared-about is not displayed?
-    -   e.g., 'That thing you said last night is true', 'All declaratives are
-        true or false.'
+1.  Over-generalization: in a quotation, the declared-about is displayed. But not all declared-abouts are displayed:
+    -   'That thing you said is true'.
+    -   (But note that, plausibly, the Liar does "display" itself, albeit not by using quotation.)
  
-2.  Identity: in the case of the Liar, the declared-about is displayed. But
-    the act of displaying is numerically identical to the act of declaring.
-    So, in this case, the declared-about is declared.
-    -    the same goes for other self-referential declaratives, like 'This saying is in English.'
+2.  Identity: some declared-abouts, like the Liar, are numerically identical to the declaratives that declare about them.
+    -   In such cases, there *is* an act of declaring, gluing the words together into a truth-apt representation.
+    -   And the act of gluing words together to be displayed is not distinct from that declarative act.
+    -   What reason is there to think that, in this sort of case, the declared-about fails to be a declarative?
   
 3.  Implausible consequences, ineffability and self-defeat:
-    -   This view implies that 'Some saying is a declarative' is
-        false, which is implausible.
-    -   On this view, features of declaratives that depend on
-        their being declaratives are ineffable: when you try to say that
-        declarative has such a feature, it exits from being a declarative, and
-        so loses that that feature, and so your claim is false.
-    -   On this view, all the claims that Ibn ʿAdī makes about declaratives in
-        his attempt to solve the Liar are, on his own account, false.
+    a.  On this view, 'Some saying is a declarative' is false, but that is
+        implausible.
+    b.  On this view, every feature, F, of a declarative, D, that depends on
+        it being a declarative becomes ineffable: when you say, 'D is F', as
+        declared-about, D exits from being a declarative, so does not have F.
+    c.  Ibn ʿAdī himself relies on claims about declaratives that depend on
+        their being declaratives. By his own account, all those claims are
+        false.
 
 ## Ibn ʿAdī's source for the Liar?
 
--   @endress1977 [p. 44] suggests that Ibn ʿAdī's sources for the Liar were
-    Aristotle's *Sophistical Refutations 25*, and Alexander's commentary on
-    *SR*.
--   Not *SR* 25:
-    -   *SR* 25 at best *suggests* the Liar [@spade1973a] 
-    -   The suggestive example from *SR* 25---a man who "at the same time says what is both false and
-    true"---is omitted from many of the Arabic translations, including Ibn
-    ʿAdī's [@alwishah2009a, 99]
--   Not Alexander's commentary on *SR*:
-    -   because it is spurious, written by Michael of Ephesus in the 12th century CE.
--   Could be Alexander's commentary on *Topics* II.7:
-    -   Not spurious! Discusses the Liar and not spurious [@alexander2020 188:4-189:10].
-    -   Ibn ʿAdī says he consulted it when writing his own commentary on *Topics* [but also says that his copy was
-    missing Alexander's commentary on books II, III, and IV [@endress1977, 25]]{.fragment}.
-
-:::notes
-
-Our guess: puzzles like the Liar were part of the standard logic curriculum, presented as exercises to students by teachers.
-
-:::
-
+-   If we have time! See the end of these slides.
+   
 # Al-Dashtakī on the Liar
 
-## Al-Dashtakī's initial presentation of the Liar
-
-al-Dashtakī first raises the Liar as an objection to Ṭūsī's claim that truth
-is correspondence to the *nafs al-amr* (roughly, the thing as it is in itself), and falsity the absence of this
-correspondence:
-
-> \[This\] entails that truth and falsity are not conjoined in one
-> declarative. But they may be conjoined in it, as in the saying of he who
-> says, 'All my speeches at this moment are false': if he does not speak at
-> the mentioned moment, other than this speech, then the truth of his
-> declarative entails its falsity and vis versa.
-
 ## Al-Dashtakī's proposed solution
-
-The Liar is neither true nor false, because it requires, to be truth apt, the
-actualization of two declaratives. But only one declarartive is actualized:
 
 > [Falsity is considered in this specific saying twice]{.fragment
 > .highlight-current-green fragment-index="1"}, and [being considered twice,
@@ -380,54 +320,47 @@ actualization of two declaratives. But only one declarartive is actualized:
 > to attribute\] falsity]{.fragment .highlight-current-green fragment-index=4}.
 
 ::: nonincremental
-1.  [The Liar is a declarative that considers falsity twice.]{.fragment
+1.  [The Liar considers falsity twice.]{.fragment
     .highlight-current-green fragment-index="1"}
-2.  [Any declarative that considers truth or falsity twice requires the
-    actualization of two declaratives for it to be correct to attribute truth
-    or falsity to it.]{.fragment .highlight-current-green fragment-index="2"}
-3.  [In the case of the Liar, only one declarative is actualized.]{.fragment
+2.  [A declarative that considers truth or falsity twice requires, for it to be correct to attribute it truth or falsity, the
+    actualization of two declaratives.]{.fragment .highlight-current-green fragment-index="2"}
+3.  [The speaker only actualizes one declarative.]{.fragment
     .highlight-current-green fragment-index="3"}
 4.  So, [it is not correct to attribute truth or falsity to the
     Liar.]{.fragment .highlight-current-green fragment-index="4"}
+5   That is, the Liar is neither true nor false.
 :::
 
 ## Truth, Falsity, and Existential Import
 
-Al-Dashtakī says:
-
 > [](#fw71) Know that each one of truth and falsity requires the actualization
 > of the attributed-about (*al-mawṣūf*) that they are attributed to.
 
--   Everyone (except maybe Ibn Kammūna) agrees that:
+That is, 'A is true' and 'A is false' are both *affirmative* attributions, so
+both require *for their truth* the existence of A.
 
-    1.  Falsity is non-truth, that is, the privative or metathetic negation of truth.
-    2.  Attributions of privative and metathetic negations are affirmative.
-    3.  Affirmative attributions have existential import.
-        -   'A is B' is true only if 'A' is not empty; otherwise it is false.
-        -   'A is not B' is true if 'A' is empty.
+-   This is the standard Aristotelian view that affirmatives have existential import.
+-   The "standard package" adds:
+    -    Affirmatives with empty subjects are not true, and so false.
+-   So, if we apply this standard package, we can interpret al-Dashtakī to mean:
 
--   So, since 'A is true' and 'A is false' are both affirmative, they both
-    require (for their *truth*) the actualization of A---that is, that 'A' not
-    be empty.
+> [](#fw71) Know that each one of truth and falsity requires **for the truth of their attribution** the actualization
+> of the attributed-about (*al-mawṣūf*) that they are attributed to; **otherwise, that attribution is false**.
 
-## (A stalking horse)
+## An alternative interpretation
 
-@zarepour2023 [12--13] (a lovely paper!) says:
+@zarepour2023 [12--13] (a lovely paper!) says,
 
 > Dashtakī's argument here seems to be based on a version of what is today
 > called the Principle of Compositionality. 
 
-On this interpretation, if 'A' is empty, both 'A is B' and 'A is not B' are meaningless, and so lack
-truth value (unless one does something fancy with the semantics of 'not').
+On this interpretation, if 'A' is empty, 'A is true', 'A is false', 'A is not
+true', and 'A is not false' are all semantically defective, and so
+meaningless (unless we add something fancy about the semantics of 'not').
 
 :::{.fragment}
-For a long time, we read al-Dashtakī this way too. But now we think that is a
-mistake. Al-Dashtaki's reasoning depends on the weaker  traditional claim that 
-affirmatives have existential import.
-:::
-
-:::{.fragment}
-Let's see if we can vindicate this more "conservative" interpretation.
+For a long time, we read al-Dashtakī this way too. But now we think that this is a
+mistake. We take al-Dashtaki's reasoning about the Liar to depend only on the "standard package" described above.
 :::
 
 ## Initial Application to the Liar
@@ -442,12 +375,12 @@ Let's see if we can vindicate this more "conservative" interpretation.
 
 ::: nonincremental
 -   [If L is actualized, then one of 'L is true' and 'L is false' is correct.]{.fragment .highlight-current-green fragment-index=1}
--   [If L is missing, neither of 'L is true' and 'L is false' is correct.]{.fragment .highlight-current-green fragment-index=2}
+-   [If L is missing, neither of 'L is true' nor 'L is false' is correct.]{.fragment .highlight-current-green fragment-index=2}
 :::
 
 -   ('Correct' (*yusahh*) in this context, just means 'true'!)
 
-## An Example {#an-example auto-animate="true"}
+## A First Example {#an-example auto-animate="true"}
 
 > [](#fw72) For example, if [Zayd declared about something]{.fragment
 > .highlight-current-green fragment-index="1"}, then [it is correct that his
@@ -481,7 +414,7 @@ ZF
 :::
 :::
 
-## An Example {#an-example-1 auto-animate="true"}
+## A First Example {#an-example-1 auto-animate="true"}
 
 ::: {data-id="1"}
    Z       ZT            ZF
@@ -579,28 +512,35 @@ ZFT
 
 ---
 
+Finally, he talks about the possibility that both Z and ZT go missing:
+
 > Likewise, if one does not declare and \[does not\] judge that my declarative
 > is true, \[then\] it is not correct to attribute truth or falsity to it,
 > because one's saying, "My declarative is true," is missing, that is, due to
 > the lack of the declarative which is judged to be true, which is needed to
 > actualize the attribution of the two truths or the two falsities.
 
+:::{data-id=1}
    Z   ZT    ZTT     ZTF
   --- ---- ------- -------
+   T   ✗    not C   not C
+   F   ✗    not C   not C
    ✗   ✗    not C   not C
-
+:::
 
 ## Z goes missing, but ZT is actualized {auto-animate}
 
 ::: {data-id="1"}
-   Z    ZT     ZTT   ZTF
-  --- ------- ----- -----
-   ✗     ?      ?     ?
+   Z   ZT    ZTT     ZTF
+  --- ---- ------- -------
+   T   ✗    not C   not C
+   F   ✗    not C   not C
+   ✗   ✗    not C   not C
+   ✗   ?      ?       ?
 :::
 
--   Al-Dashtakī does not consider this case.
--   Earlier, he told us that when Z goes missing, it is not correct to
-    attribute truth or falsity to it. So ZT is not correct.
+-   Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes missing but ZT does not.
+-   But we already know from earlier that he thinks that, in this situation, ZT is not correct.
 
 ## Z goes missing, but ZT is actualized {auto-animate}
 
@@ -611,10 +551,9 @@ ZFT
 :::
 
 :::nonincremental
--   Al-Dashtakī does not consider this case.
--   Earlier, he told us that when Z goes missing, it is not correct to
-    attribute truth or falsity to it. So ZT is not correct.
--   Unless there is unexplained funny business, it follows that ZT is false.
+-   Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes missing but ZT does not.
+-   But we already know from earlier that he thinks that, in this situation, ZT is not correct.
+-   Assuming the "traditional package", this means that ZT is false.
 :::
 
 ## Z goes missing, but ZT is actualized {auto-animate}
@@ -626,11 +565,10 @@ ZFT
 :::
 
 ::: nonincremental
--   Al-Dashtakī does not consider this case.
--   Earlier, he told us that when Z goes missing, it is not correct to
-    attribute truth or falsity to it. So ZT is not correct.
--   Unless there is unexplained funny business, it follows that ZT is false.
--   ...And it follows that ZTT, which says ZT is true, is not correct.
+-   Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes missing but ZT does not.
+-   But we already know from earlier that he thinks that, in this situation, ZT is not correct.
+-   Assuming the "traditional package", this means that ZT is false.
+-   So ZTT, which says ZT is true, is not correct.
 :::
 
 ## Z goes missing, but ZT is actualized {auto-animate}
@@ -642,12 +580,11 @@ ZFT
 :::
 
 ::: nonincremental
--   Al-Dashtakī does not consider this case.
--   Earlier, he told us that when Z goes missing, it is not correct to
-    attribute truth or falsity to it. So ZT is not correct.
--   Unless there is unexplained funny business, it follows that ZT is false.
--   ...And it follows that ZTT, which says ZT is true, is not correct.
--   ...And it follows that ZTF, which says ZT is false, is correct
+-   Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes missing but ZT does not.
+-   But we already know from earlier that he thinks that, in this situation, ZT is not correct.
+-   Assuming the "traditional package", this means that ZT is false.
+-   So ZTT, which says ZT is true, is not correct.
+-   And ZTF, which says that ZT is false, is correct.
 :::
 
 ## Z goes missing, but ZT is actualized {auto-animate}
@@ -659,19 +596,15 @@ ZFT
 :::
 
 ::: nonincremental
--   Al-Dashtakī does not consider this case.
--   Earlier, he told us that when Z goes missing, it is not correct to
-    attribute truth or falsity to it. So ZT is not correct.
--   Unless there is unexplained funny business, it follows that ZT is false.
--   ...And it follows that ZTT, which says ZT is true, is not correct.
--   ...And it follows that ZTF, which says ZT is false, is correct
+-   Al-Dashtakī does not discuss the status of ZTT and ZTF when Z goes missing but ZT does not.
+-   But we already know from earlier that he thinks that, in this situation, ZT is not correct.
+-   Assuming the "traditional package", this means that ZT is false.
+-   So ZTT, which says ZT is true, is not correct.
+-   And ZTF, which says that ZT is false, is correct.
 :::
 
--   But this violates al-Dashtakī's stated principle: it is correct to attribute
-    falsity to ZTF, even though both Z and ZT are not actualized.
--   Maybe al-Dashtakī doesn't really mean that *both* have to be actualized.
--   Maybe he just means that it is not *enough* for Z to be actualized,
-    because the second-order declarative, ZT or ZF, also needs to be actualized.
+-   So ZTF is *correct*, even though only one of the two declaratives is actualized.
+-   That seems like a problem for Dashtakī.
 
 ## Application to the Liar {#application-to-the-liar}
 
@@ -686,8 +619,7 @@ ZFT
 > false."
 :::
 
--   It is unclear exactly how we are to understand the 'as if'.
--   Roughly, the idea seems to be that the semantics of 'All my speeches are
+-   Roughly, the "as if" idea seems to be that the semantics of 'All my speeches are
     false' requires us to consider falsity twice, first, as the judged-about,
     and second, as what is judged of the judged-about.
 
@@ -699,18 +631,21 @@ ZFT
 
 ## The Payoff
 
-> [](#fw76) And it becomes apparent that the falsity is considered in this
-> specific saying twice, and being considered twice, this requires two
-> declaratives for it to be correct to attribute truth and falsity to it.
-> Since only one declarative is actualized, it is clear to you that it is not
-> correct to attribute to this saying truth, and not \[correct to attribute\]
-> falsity. And it weighs the same as your saying, "'Zayd's sentence is false,'
+> [](#fw76) And it becomes apparent that [the falsity is considered in this
+> specific saying twice\]{.fragment .highlight-current-green}, and [being
+> considered twice, this requires two declaratives for it to be correct to
+> attribute truth and falsity to it]{.fragment .highlight-current-green}.
+> Since [only one declarative is actualized]{.fragment
+> .highlight-current-green}, it is clear to you that [it is not correct to
+> attribute to this saying truth\]{.fragment .highlight-current-green}, and
+> [not \[correct to attribute\] falsity.]{.fragment .highlight-current-green}
+> And it weighs the same as your saying, "'Zayd's sentence is false,'
 > is true", or "false", if Zayd has no declarative except one. Reflect on
 > that!
 
 ## Puzzles {auto-animate=true}
 
-This seems to be how he wants us to think of the situation:
+How he wants us to think of the situation: L requires two declaratives, but only one of them is actualized, so it is not correct to say that L is true or that it is false. That is, imagining that L~1~ and L~2~ are the two required declaratives:
 
 :::{data-id=1}
    L~1~   L~2~    L~2~ is true    L~2~ is false
@@ -719,9 +654,6 @@ This seems to be how he wants us to think of the situation:
     ✗      ?     not correct      not correct
 :::
 
--   The judgments in columns 3 and 4 represent his position on the Liar: it is
-    not correct to say that it is true, and not correct to say it is false.
--   As we've seen, his argument doesn't the position in the last row.
 
 ## Puzzles {auto-animate=true}
 
@@ -733,12 +665,11 @@ This seems to be how he wants us to think of the situation:
     ✗      F     not correct      correct
 :::
 
-
-:::nonincremental
--   Maybe that row can be ruled out?
--   If you need to say the same thing twice, and you only say it once,
-    then it is always the *second* saying that goes missing?
-:::
+-   But as we've seen, he is not entitled, by his own principles and forms of
+    argument, to the last row.
+-   Can we rule out that last row, on independent grounds?
+    -   If you need to say the same thing twice, and you only say it once,
+        then maybe it is always the *second* saying that goes missing?
 
 ## Puzzles {auto-animate=true}
 
@@ -748,45 +679,59 @@ This seems to be how he wants us to think of the situation:
     ?      ✗     not correct      not correct
 :::
 
+-   Suppose we have narrowed things down to just this possibility.
 -   That '?' is worrisome:
-    -   We can't replace it with an '✗': then the speaker will have failed to actualize *any* declarative.
-    -   One option: L~1~ is either true or false, but, either way, this doesn't lead to a contradiction.
-    -   But that's weird, because those truth values would be entirely ungrounded.
-
-## Trouble
-
-C
-:   This saying is composed.
-
--   Al-Dashtakī and al-Dawānī agree that this is true.
--   'Composed' here is a word borrowed from grammar. It refers *syntactic*
-    composition, independent of the *semantics* of any specific mode of
-    composition (e.g., declarative, imperative, etc.)
--   Presumably, just as with the Liar, when someone says C, it is *as if* they said "'This saying is composed' is composed"
--   And that declarative "considers composing" twice:
-
-      C~1~    C~2~    C~2~ is true     C~2~ is false
-    ------- ------- ---------------- -----------------
-       ?       ✗      not correct      not correct
-
--   Al-Dashtakī says: no, my principle does not apply, because C does not consider *truth* or *falsity* twice.
--   On our interpretation, that seems entirely irrelevant.
+    -   We can't say L~1~ goes missing. For then, either *no* declarative is
+        actualized, or L~2~ is---but we need to avoid that possibility.
+    -   So either L~1~ is true, or it is false.
+    -   Perhaps L~1~ is false because it has an empty subject, L~0~. But that
+        also recreates the possibility we need to avoid, just shifted one
+        column over.
+    -   In fact, any assignment of truth value to L~1~ is a problem. For what
+        stops *us* from then correctly saying that L~1~ has that truth value,
+        collapsing the entire structure of al-Dashtakī's solution.
 
 # Conclusion
 
-## Ibn ʿAdī and al-Dashtakī: a comparison
+## Ibn ʿAdī and al-Dashtakī: a comparison {auto-animate=true}
 
--   Ibn ʿAdī says that the Liar as declared-about lacks truth value, so the Liar as declarative is false.
--   Al-Dashtakī says that the Liar requires two declaratives, but (we've argued), while the first exists, the second does not, so
-    the Liar lacks truth value.
--   As we see it, these are two variants on the same basic solution:
-
+-   Both Ibn ʿAdī and al-Dashtakī agree that, in some circumstances, a declarative is neither true nor false.
+-   For Ibn ʿAdī, this is when it is actualized as a declared-about, and so exits from being a declarative.
+-   For Dashtakī, this is when it is not actualized, and so goes missing.
+-   If we use '✗' in a neutral way, to indicate that the declarative in question fails, for whatever reason, to be true or false, then we can represent their views in a simple table:
+   
     :::{data-id=1}
                    L~1~   L~2~  
     ------------  ------ ------ 
     al-Dashtakī     ?      ✗    
     Ibn ʿAdī        ✗      F    
     :::
+
+# Appendix
+
+## Ibn ʿAdī's source for the Liar?
+
+-   @endress1977 [p. 44] suggests that Ibn ʿAdī's sources for the Liar were
+    Aristotle's *Sophistical Refutations 25*, and Alexander's commentary on
+    *SR*.
+-   Not *SR* 25:
+    -   *SR* 25 at best *suggests* the Liar [@spade1973a] 
+    -   The suggestive example from *SR* 25---a man who "at the same time says what is both false and
+    true"---is omitted from many of the Arabic translations, including Ibn
+    ʿAdī's [@alwishah2009a, 99]
+-   Not Alexander's commentary on *SR*:
+    -   because it is spurious, written by Michael of Ephesus in the 12th century CE.
+-   Could be Alexander's commentary on *Topics* II.7:
+    -   Not spurious! Discusses the Liar and not spurious [@alexander2020 188:4-189:10].
+    -   Ibn ʿAdī says he consulted it when writing his own commentary on *Topics* [but also says that his copy was
+    missing Alexander's commentary on books II, III, and IV [@endress1977, 25]]{.fragment}.
+
+:::notes
+
+Our guess: puzzles like the Liar were part of the standard logic curriculum, presented as exercises to students by teachers.
+
+:::
+
 
 ## References
 
