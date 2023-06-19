@@ -1,5 +1,5 @@
 ---
-title: 'Ibn ʿAdī and Dashtakī on the Liar Paradox'
+title: 'Ibn ʿAdī and al-Dashtakī on the Liar Paradox'
 author:
 -  | 
   Ahmed Alwishah\
@@ -349,9 +349,9 @@ Our guess: puzzles like the Liar were part of the standard logic curriculum, pre
 
 :::
 
-# al-Dashtakī on the Liar
+# Al-Dashtakī on the Liar
 
-## al-Dashtakī's initial presentation of the Liar
+## Al-Dashtakī's initial presentation of the Liar
 
 al-Dashtakī first raises the Liar as an objection to Ṭūsī's claim that truth
 is correspondence to the *nafs al-amr* (roughly, the thing as it is in itself), and falsity the absence of this
@@ -363,7 +363,7 @@ correspondence:
 > the mentioned moment, other than this speech, then the truth of his
 > declarative entails its falsity and vis versa.
 
-## al-Dashtakī's proposed solution
+## Al-Dashtakī's proposed solution
 
 The Liar is neither true nor false, because it requires, to be truth apt, the
 actualization of two declaratives. But only one declarartive is actualized:
@@ -391,7 +391,7 @@ actualization of two declaratives. But only one declarartive is actualized:
 
 ## Truth, Falsity, and Existential Import
 
-al-Dashtakī says:
+Al-Dashtakī says:
 
 > [](#fw71) Know that each one of truth and falsity requires the actualization
 > of the attributed-about (*al-mawṣūf*) that they are attributed to.
@@ -419,8 +419,8 @@ On this interpretation, if 'A' is empty, both 'A is B' and 'A is not B' are mean
 truth value (unless one does something fancy with the semantics of 'not').
 
 :::{.fragment}
-For a long time, we read Dashtakī this way too. But now we think that is a
-mistake. Dashtaki's reasoning depends on the weaker  traditional claim that 
+For a long time, we read al-Dashtakī this way too. But now we think that is a
+mistake. Al-Dashtaki's reasoning depends on the weaker  traditional claim that 
 affirmatives have existential import.
 :::
 
@@ -596,7 +596,7 @@ ZFT
    ✗     ?      ?     ?
 :::
 
--   Dashtakī does not consider this case.
+-   Al-Dashtakī does not consider this case.
 -   Earlier, he told us that when Z goes missing, it is not correct to
     attribute truth or falsity to it. So ZT is not correct.
 
@@ -609,7 +609,7 @@ ZFT
 :::
 
 :::nonincremental
--   Dashtakī does not consider this case.
+-   Al-Dashtakī does not consider this case.
 -   Earlier, he told us that when Z goes missing, it is not correct to
     attribute truth or falsity to it. So ZT is not correct.
 -   Unless there is unexplained funny business, it follows that ZT is false.
@@ -624,7 +624,7 @@ ZFT
 :::
 
 ::: nonincremental
--   Dashtakī does not consider this case.
+-   Al-Dashtakī does not consider this case.
 -   Earlier, he told us that when Z goes missing, it is not correct to
     attribute truth or falsity to it. So ZT is not correct.
 -   Unless there is unexplained funny business, it follows that ZT is false.
@@ -640,7 +640,7 @@ ZFT
 :::
 
 ::: nonincremental
--   Dashtakī does not consider this case.
+-   Al-Dashtakī does not consider this case.
 -   Earlier, he told us that when Z goes missing, it is not correct to
     attribute truth or falsity to it. So ZT is not correct.
 -   Unless there is unexplained funny business, it follows that ZT is false.
@@ -657,7 +657,7 @@ ZFT
 :::
 
 ::: nonincremental
--   Dashtakī does not consider this case.
+-   Al-Dashtakī does not consider this case.
 -   Earlier, he told us that when Z goes missing, it is not correct to
     attribute truth or falsity to it. So ZT is not correct.
 -   Unless there is unexplained funny business, it follows that ZT is false.
@@ -665,9 +665,9 @@ ZFT
 -   ...And it follows that ZTF, which says ZT is false, is correct
 :::
 
--   But this violates Dashtakī's stated principle: it is correct to attribute
+-   But this violates al-Dashtakī's stated principle: it is correct to attribute
     falsity to ZTF, even though both Z and ZT are not actualized.
--   Maybe Dashtakī doesn't really mean that *both* have to be actualized.
+-   Maybe al-Dashtakī doesn't really mean that *both* have to be actualized.
 -   Maybe he just means that it is not *enough* for Z to be actualized,
     because the second-order declarative, ZT or ZF, also needs to be actualized.
 
@@ -756,7 +756,7 @@ This seems to be how he wants us to think of the situation:
 C
 :   This saying is composed.
 
--   al-Dashtakī and al-Dawānī agree that this is true.
+-   Al-Dashtakī and al-Dawānī agree that this is true.
 -   'Composed' here is a word borrowed from grammar. It refers *syntactic*
     composition, independent of the *semantics* of any specific mode of
     composition (e.g., declarative, imperative, etc.)
@@ -767,7 +767,7 @@ C
     ------- ------- ---------------- -----------------
        ?       ✗      not correct      not correct
 
--   al-Dashtakī says: no, my principle does not apply, because C does not consider *truth* or *falsity* twice.
+-   Al-Dashtakī says: no, my principle does not apply, because C does not consider *truth* or *falsity* twice.
 -   On our interpretation, that seems entirely irrelevant.
 
 # Conclusion
@@ -775,7 +775,7 @@ C
 ## Ibn ʿAdī and al-Dashtakī: a comparison
 
 -   Ibn ʿAdī says that the Liar as declared-about lacks truth value, so the Liar as declarative is false.
--   Dashtakī says that the Liar requires two declaratives, but (we've argued), while the first exists, the second does not, so
+-   Al-Dashtakī says that the Liar requires two declaratives, but (we've argued), while the first exists, the second does not, so
     the Liar lacks truth value.
 -   As we see it, these are two variants on the same basic solution:
 
