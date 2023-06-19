@@ -36,7 +36,7 @@ url: https://dsanson.github.io/slides/talks/iad.html
 
 ## The Liar: 900--1502 
 
-:::{style='font-size:40px'}
+:::{style='font-size:35px'}
 ```{.table}
 ---
 alignment: LR
@@ -45,7 +45,9 @@ markdown: True
 ---
 Name,Death (CE)
 [Yahya Ibn ʿAdī]{.fragment .highlight-green fragment-index=1},974
+Abū Manṣūr al-Baghdādī,1037
 Fakr al-Dīn al-Razi,1210
+Sayf al-Dīn al-Āmidī,1233
 Athīr al-Dīn al-Abharī,1265
 Nasīr al-Dīn al-Ṭūsī,1274
 Najm al-Dīn al-Quzwini al-Kātibī,1276
@@ -94,9 +96,6 @@ The Liar is false because it contradicts itself.,"al-Razi; al-Abharī; al-Kātib
 -   Contemporary of, and interlocutor with, al-Dawānī.
 -   *The Final Word* is the final word in *their* extended debate about the
     Liar---so he is a central figure for us.
--   In 1497, the new provincial ruler of Shiraz abolished the tax exemption on
-    endowment income for his school, so in 1498, he led an armed uprising, for
-    which he was executed [@pourjavady2011a, 19].
 :::
 
 # Ibn ʿAdī on the Liar
