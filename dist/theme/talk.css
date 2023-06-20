@@ -18,6 +18,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
   height: 100%;
 }
 
+.reveal.overview .slides section .fragment {
+  visibility: visible !important;
+}
+
 .reveal .slides section#title-slide {
   display: grid !important;
   grid-template: auto auto 2em/2em auto auto 2em;

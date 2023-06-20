@@ -116,14 +116,16 @@ The Liar is false because it contradicts itself.,"al-Razi; al-Abharī; al-Kātib
     -   *Explaining the Virtue of the Art of Logic* (edited text in progress)
     -   A solutions manual to *Explaining, *The Virtues of Logic* (edited text in @ibnadi1988 [201--205])
 
-## *Explaining the Virtue of the Art of Logic* {auto-animate=true}
-
+:::notes
 -   Full title: *Explaining the Virtue of the Art of Logic by Describing how
     it Benefits People \[by endowing them\] with Powers \[to dissolve
     problems\] that it is Impossible for the other Arts of Language to Solve*.
 
 -   Was long lost. Part of the Tehran codex Marwī 19 discovered by Robert Wisnovsky
     (@wisnovsky2012). Robert and Ahmed are working on producing an edited version.
+:::
+
+## *Explaining the Virtue of the Art of Logic* 
 
 -   Part I:
 
@@ -131,45 +133,19 @@ The Liar is false because it contradicts itself.,"al-Razi; al-Abharī; al-Kātib
     > sitting (*al-qāʾim ghayr al-qāʿid*),' in 16384 ways \[=$2^14$\], as we
     > will explain, whereas the other practical arts are unable to do so.
 
-## *Explaining the Virtue of the Art of Logic* {auto-animate=true}
-
-:::nonincremental
 -   Part II:
 
     > Another benefit of logic is to dissolve some common problems that were
     > brought by the sophists.
-:::
 
 -   One of those four problems is the Liar.
 
 -   Solutions are left as an exercise to the reader.
 
 -   Luckily, a friend reached out, and asked for a solution manual. In *Virtues*, we get his solution to the Liar.
- 
+
 :::notes
-
->| Everyone who says he is a donkey says he is an animal.
->| Everyone who says he is an animal is truthful. 
->| So, everyone who says he is donkey is truthful.
-
-Haven't located Greek sources; present in the earliest Oxford and Paris collections of sophisms.
-
->| Every man is an animal. 
->| Animal has many species.
->| So every man has many species.
-
-As standard puzzle from antiquity. See dexippus2014 [bk. 1, sec. 27, p. 55]
-porphyry1992 [80:32, pp. 65-66] and back1987 [p. 140ff].
-
-> Body is either animal or not animal. Necessarily, if something is true of
-> all, it must be affirmed of each. If
-> body is animal, this entails that rock is animal, since rock is body and, by
-> assumption, body is animal. And if body is not animal, this entails that
-> animal is not animal, since animal is body.
-
-A puzzle about Aristotle's *dictum de omni et nullo* (*Categories* 1b
-10-15) that the later Islamic tradition associates with Isagoge.
-
+There are some slides at the end of this deck that briefly describe the other three problems.
 :::
 
 ## The Liar
@@ -186,9 +162,11 @@ A puzzle about Aristotle's *dictum de omni et nullo* (*Categories* 1b
 -   Popular later variants are:
     -   He who says, 'All my sayings at this moment are false,' and says nothing else in that moment.
     -   He who says, 'All my sayings in this house are false,' and says nothing else in that house.
- 
+
+:::notes
 -   There are also Liar cycles.
 -   Pretty much all the examples are what Kripke would call *Contingent* Liars, and the solutions are meant to be sensitive to that.
+:::
 
 ## Ibn ʿAdī's Solution {auto-animate=true}
 
@@ -211,12 +189,9 @@ A puzzle about Aristotle's *dictum de omni et nullo* (*Categories* 1b
 :::
 
 :::notes
-
 A "declared-about" (*mukhbar ʿanhu*) is the subject of a declarative. If I
 say, 'Zayd is sitting', Zayd, the man, is the declared-about. If I say, 'All
 my students are from Illinois', each individual student is a declared-abouts.
-
-TODO: Ahmed, I would like the arabic for 'exiting from being'
 :::
 
 
@@ -285,26 +260,21 @@ TODO: Ahmed, I would like the arabic for 'exiting from being'
 
 -   Perhaps Ibn ʿAdī's idea can be put this way: 
  
-    1.   As a declared-about, a declarative is *displayed*.
-    2.   To *display* a declarative is not to declare it.
-    3.   A declarative is no longer a declarative if it is in a condition where it is not declared.
-    4.   As a declared-about, a declarative is no longer a declarative.
+    -    As a declared-about, a declarative is *displayed*, and when a declarative is *displayed*, it is not declared.
 
--   This suggests a distinction between the saying *in itself*---which is a
-    declarative, and the saying *as displayed*, that is, *as a declared-about*---which exits from being
-    a declarative.
+-   This suggests a distinction between the declarative as it is *in itself*,
+    according to its nature as a declarative, and as it is *when displayed*,
+    that is, *as a declared-about*.
 
 ## A few pretty obvious objections
 
-1.  Induction from non-representative sample: in a quotation, the declared-about is displayed. But not all declared-abouts are displayed, for example, 'That thing you said is true'.
-    -   But note that, plausibly, the Liar does both "display" itself and say something about itself. So Ibn ʿAdī's idea might still apply to it.
+1.  Induction from a non-representative sample: in quotations, the declared-abouts are displayed. But that's something special about quotations. If I say, 'That thing you said is true', I have declared something about what you said, but I have not displayed it. (Note that plausibly, the Liar *does* display its declared-about.)
  
 2.  Identity: some declared-abouts, like the Liar, are numerically identical
     to the declaratives that declare about them.
     -   In such cases, there *is* an act of declaring, gluing the words
         together into a truth-apt representation.
-    -   What reason is there to think that, in this sort of case, that glue is
-        dissolved when that very declarative is also a declared-about?
+    -   Why is that glue dissolved when that very declarative is also declared-about?
   
 3.  Implausible consequences, ineffability and self-defeat:
     a.  On this view, 'Some saying is a declarative' is false, but that is
@@ -757,7 +727,7 @@ How he wants us to think of the situation: L requires two declaratives, but only
 
 # Conclusion
 
-## Ibn ʿAdī and al-Dashtakī: a comparison {auto-animate=true}
+## Ibn ʿAdī and al-Dashtakī: a comparison 
 
 -   Both Ibn ʿAdī and al-Dashtakī agree that, in some circumstances, a
     declarative is neither true nor false.
@@ -768,18 +738,18 @@ How he wants us to think of the situation: L requires two declaratives, but only
     question fails, for whatever reason, to be true or false, then we can
     represent their views in a simple table:
    
-    :::{data-id=1}
+    :::
                    L~1~   L~2~  
     ------------  ------ ------ 
     al-Dashtakī     ?      ✗    
     Ibn ʿAdī        ✗      F    
     :::
 
-# Appendix
+# Appendices and References
 
 ## Ibn ʿAdī's source for the Liar?
 
--   @endress1977 [p. 44] suggests that Ibn ʿAdī's sources for the Liar were
+-   @endress1977  suggests that Ibn ʿAdī's sources for the Liar were
     Aristotle's *Sophistical Refutations 25*, and Alexander's commentary on
     *SR*.
 -   Not *SR* 25:
@@ -800,5 +770,46 @@ Our guess: puzzles like the Liar were part of the standard logic curriculum, pre
 
 :::
 
----
+
+## The other three "common problems" from Ibn ʿAdī
+
+:::nonincremental
+1.  Everyone who says he is a donkey is truthful.
+2.  Every man has many species.
+3.  Either rock is animal or animal is not animal.
+:::
+
+## Everyone who says he is donkey is truthful
+
+>| Everyone who says he is a donkey says he is an animal.
+>| Everyone who says he is an animal is truthful. 
+>| So, everyone who says he is donkey is truthful.
+
+:::nonincremental
+-  We haven't located Greek sources.
+-  Present in the earliest Oxford and Paris collections of sophisms, and throughout the later Latin tradition.
+-  Also present in later Arabic sources.
+:::
+
+## Every man has many species
+
+>| Every man is an animal. 
+>| Animal has many species.
+>| So every man has many species.
+
+More or less a standard puzzle from antiquity. 
+
+## Either rock is animal or animal is not animal
+
+> Body is either animal or not animal. Necessarily, if something is true of
+> all, it must be affirmed of each. If
+> body is animal, this entails that rock is animal, since rock is body and, by
+> assumption, body is animal. And if body is not animal, this entails that
+> animal is not animal, since animal is body.
+
+A puzzle about Aristotle's *dictum de omni et nullo* (*Categories* 1b
+10-15) that the later Islamic tradition associates with Isagoge.
+
+
+## References {style="font-size:40px"}
 

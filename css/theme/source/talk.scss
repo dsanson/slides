@@ -52,6 +52,11 @@ $heading4Size: 1.0em;
   height: 100%;
 }
 
+// show fragments in overview mode
+.reveal.overview .slides section .fragment {
+  visibility: visible !important;
+}
+
 // slide templates
 
 // title slide
