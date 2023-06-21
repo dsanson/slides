@@ -17,6 +17,7 @@ url: https://dsanson.github.io/slides/talks/iad.html
 
 ## *The Final Word: al-Dawani and the Liar Paradox in the Islamic World*
 
+:::nonincremental
 -   How it began:
     -   al-Dawānī (d. 1502)'s treatise, *The Final Word in Solving the Paradox
         of the Irrational Root*, looks neat! Let's translate it and
@@ -29,15 +30,17 @@ url: https://dsanson.github.io/slides/talks/iad.html
 -   Why this happened:
     -   al-Dawānī discusses several earlier proposals, offering partial
         quotes, so we chased those back to their sources.
-    -   turns out he isn't always faithful to his sources[, and ignores (or is
-        ignorant of) some important figures]{.fragment} [, and ignores (or is
+    -   turns out he isn't always faithful to his sources, and ignores (or is
+        ignorant of) some important figures.fragment , and ignores (or is
         ignorant of) some curious uses of the Liar in theological
-        contexts.]{.fragment}
+        contexts.
 
-## The Liar: 900--1502 
+:::
 
-:::{style='font-size:35px'}
-```{.table}
+## The Liar: 900--1502
+
+::: {style="font-size:35px"}
+``` table
 ---
 alignment: LR
 table-width: 3/4
@@ -61,10 +64,10 @@ Jalāl al-Dīn al-Dawānī,1502
 ```
 :::
 
----
+------------------------------------------------------------------------------
 
-:::{style='font-size:40px'}
-```{.table}
+::: {style="font-size:40px"}
+``` table
 ---
 alignment: LR
 table-width: 3/4
@@ -82,19 +85,19 @@ The Liar is false because it contradicts itself.,"al-Razi; al-Abharī; al-Kātib
 
 ### Yaḥyá Ibn ʿAdī (893--947)
 
-:::nonincremental
+::: nonincremental
 -   Syriac Christian, working in Baghdad.
 -   Student of Abū Bishr Mattā; student or colleague of al-Fārābī.
 -   Prolific translator, commentator, and author of his own treatises.
 -   Known in his time especially for his work on logic.
 :::
 
-|
-|
+| 
+| 
 
 ### Sadr al-Dīn al-Dashtakī (d. 1498)
 
-:::nonincremental
+::: nonincremental
 -   Philosopher living and working in Shiraz during the Safavid period.
 -   Contemporary of, and interlocutor with, al-Dawānī.
 -   *The Final Word* is the final word in *their* extended debate about the
