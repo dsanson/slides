@@ -31,7 +31,7 @@ url: https://dsanson.github.io/slides/talks/iad.html
     -   al-Dawānī discusses several earlier proposals, offering partial
         quotes, so we chased those back to their sources.
     -   turns out he isn't always faithful to his sources, and ignores (or is
-        ignorant of) some important figures.fragment , and ignores (or is
+        ignorant of) some important figures, and ignores (or is
         ignorant of) some curious uses of the Liar in theological
         contexts.
 
