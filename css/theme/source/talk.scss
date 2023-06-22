@@ -235,6 +235,17 @@ video.live-video.bradybunch {
   color: antiquewhite;
 }
 
+@media print {
+  .reveal .slides ol, .reveal .slides ul {
+    margin-left: 2em !important;
+  }
+    .hanging-indent div.csl-entry {
+    margin-left: 4em !important;
+    text-indent: -2em !important;
+    font-size: 16pt !important;
+  }
+}
+
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------

@@ -76,6 +76,10 @@ $endif$
 $if(url)$
   <a href="$url$" class="url">$url$</a>
 $endif$
+$if(pdf)$
+  <a href="$pdf$" class="url">PDF</a>
+$endif$
+
 </section>
 $endif$
 $if(toc)$

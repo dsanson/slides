@@ -9,8 +9,7 @@ author:
   David Sanson\
   Illinois State University\
   <desanso@ilstu.edu>
-qrcode: qrcode.png
-url: https://dsanson.github.io/slides/talks/iad.html 
+pdf: https://dsanson.github.io/slides/talks/iad.pdf
 ---
 
 # Introduction
@@ -741,12 +740,10 @@ How he wants us to think of the situation: L requires two declaratives, but only
     question fails, for whatever reason, to be true or false, then we can
     represent their views in a simple table:
    
-    :::
                    L~1~   L~2~  
     ------------  ------ ------ 
     al-Dashtakī     ?      ✗    
     Ibn ʿAdī        ✗      F    
-    :::
 
 # Appendices and References
 
