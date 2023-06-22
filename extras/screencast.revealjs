@@ -77,7 +77,7 @@ $if(url)$
   <a href="$url$" class="url">$url$</a>
 $endif$
 $if(pdf)$
-  <a href="$pdf$" class="url">PDF</a>
+  <a href="$pdf$" class="url">DOWNLOAD PDF</a>
 $endif$
 
 </section>
