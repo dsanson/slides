@@ -20,5 +20,8 @@ Islamic World.
 
 "Against Dualism": early arguments for monotheism against Manicheaism
 
+A whirlwind tour of Greek thought (see also the introduction to @mcginnis2007, II)
+
+
 
 
