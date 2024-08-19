@@ -6,7 +6,7 @@ institute: Illinois State University
 
 # Screencast Slideshows
 
-A setup for recording screencast slideshows with video, using reveal.js. Trying to mimic some of the simple effects (overlays, transitions) of OBS without the overhead.
+Setup for recording screencast slideshows with video, using reveal.js. Trying to mimic some of the simple effects (overlays, transitions) of OBS without the overhead.
 
 # Basic Ideas
 
